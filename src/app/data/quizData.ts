@@ -6,8 +6,9 @@ import { Quiz, QuizCategory } from '../types/quiz';
  */
 export const quizCategories: QuizCategory[] = [
   {
-    id: 'matematik',
-    name: 'Matematik',
+    id: 'etika',
+    name: 'Penghayatan Etika dan Beradaban',
+    lecturer: "Mdm Jacqueline Lynn (Kumpulan 3)",
     subcategories: [
       { id: 'topik1', name: 'Topik 1', quizId: 'matematik-topik1' },
       { id: 'topik2', name: 'Topik 2', quizId: 'matematik-topik2' },
@@ -16,6 +17,7 @@ export const quizCategories: QuizCategory[] = [
   {
     id: 'falsafah',
     name: 'Falsafah',
+    lecturer: "NABILLAH BOLHASSAN (KUMPULAN 3)",
     subcategories: [
       { id: 'topik5', name: 'Topik 5', quizId: 'falsafah-topik5' },
       { id: 'topik6', name: 'Topik 6', quizId: 'falsafah-topik6' },

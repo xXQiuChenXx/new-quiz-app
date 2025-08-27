@@ -91,6 +91,7 @@ export default function Home() {
                     <h2 className={`text-xl font-semibold ${style.textColor}`}>
                       {category.name}
                     </h2>
+                    <p className="text-gray-600 font-semibold">Lecturer: {category.lecturer}</p>
                   </div>
                   <div className={style.textColor}>
                     <svg

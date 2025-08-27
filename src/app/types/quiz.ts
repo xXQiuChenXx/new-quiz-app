@@ -6,6 +6,7 @@
 export interface QuizCategory {
   id: string;
   name: string;
+  lecturer: string;
   subcategories: QuizSubcategory[];
 }
 
