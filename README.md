@@ -1,36 +1,127 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Quiz System
+
+Quiz System is an interactive quiz application built with Next.js and Tailwind CSS. The application provides various quiz modes, progress tracking, and a responsive interface with a Malay language UI.
+
+![Quiz System Screenshot](public/screenshot.png)
+
+## Features
+
+- **Quiz Selection**: Choose quizzes based on categories and subcategories
+- **Multiple Choice Questions**: Interactive questions with answer options
+- **Three Quiz Modes**:
+  - **Sequential**: Answer questions in order
+  - **Random**: Answer questions in random order
+  - **Wrong Questions**: Retry questions answered incorrectly
+- **Progress Tracking**: Progress is saved and synchronized across all modes
+- **Statistics Panel**: Display of current performance statistics during the quiz
+- **Answer Explanations**: Detailed explanations for correct answers
+- **Responsive Design**: Works well on all device sizes
+- **Local Storage**: Progress saved in local storage
+- **Malay Language Interface**: All UI elements in Malay language
+- **Completion Screen**: Options to restart, retry wrong questions, or return to the main menu
+
+## Technologies
+
+- [Next.js 15.5.2](https://nextjs.org/) - React framework
+- [React 19.1.0](https://react.dev/) - JavaScript library
+- [Tailwind CSS 4](https://tailwindcss.com/) - Utility-first CSS framework
+- [TypeScript](https://www.typescriptlang.org/) - JavaScript with syntax for types
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- Node.js (version 18.17 or higher)
+- pnpm (recommended)
+
+### Installation
+
+1. Clone this repository:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/yourusername/quiz-system.git
+cd quiz-system
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install all dependencies:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+pnpm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+3. Run the development server:
 
-## Learn More
+```bash
+pnpm dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the application.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Project Structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```
+src/
+├── app/
+│   ├── components/     # UI and quiz components
+│   ├── data/           # Quiz data
+│   ├── hooks/          # Custom React hooks
+│   ├── quiz/           # Quiz pages
+│   ├── types/          # TypeScript interfaces and types
+│   ├── utils/          # Utility functions
+│   ├── globals.css     # Global styles
+│   ├── layout.tsx      # Main layout
+│   └── page.tsx        # Main page
+```
 
-## Deploy on Vercel
+## Usage
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. **Select Quiz**: On the main page, select the quiz category and subcategory you want to answer.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+2. **Answer Questions**: Select the correct answer and click "Check Answer" to see if your answer is correct.
+
+3. **View Explanation**: After checking your answer, an explanation will be displayed.
+
+4. **Navigate**: Use the "Next Question" button to go to the next question.
+
+5. **Change Mode**: Use the mode selector to switch between Sequential, Random, or Wrong Questions modes.
+
+6. **View Statistics**: The statistics panel shows your progress in the current quiz.
+
+7. **Complete Quiz**: After answering all questions, a completion screen will be displayed with options to restart, retry wrong questions, or return to the main menu.
+
+## Customizing Quiz Data
+
+You can add or modify quiz data in the `src/app/data/quizData.ts` file. The data format is as follows:
+
+```typescript
+{
+  id: 'category-subcategory',
+  title: 'Quiz Title',
+  categoryId: 'category',
+  subcategoryId: 'subcategory',
+  questions: [
+    {
+      id: '1',
+      text: 'Question?',
+      options: [
+        { id: 'a', text: 'Option A' },
+        { id: 'b', text: 'Option B' },
+        { id: 'c', text: 'Option C' },
+        { id: 'd', text: 'Option D' }
+      ],
+      correctOptionId: 'a',
+      explanation: 'Answer explanation'
+    }
+  ]
+}
+```
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- Built with [Next.js](https://nextjs.org/)
+- Styled with [Tailwind CSS](https://tailwindcss.com/)
+- Icons from [Heroicons](https://heroicons.com/)
