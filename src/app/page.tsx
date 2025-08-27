@@ -2,7 +2,6 @@
 
 // Main page component
 import { quizCategories } from "./data/quizData";
-import { Card } from "./components/ui/Card";
 import Link from "next/link";
 import { useState } from "react";
 
