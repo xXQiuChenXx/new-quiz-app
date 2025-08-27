@@ -1,6 +1,6 @@
-# Quiz System
+# New Quiz App
 
-Quiz System is an interactive quiz application built with Next.js and Tailwind CSS. The application provides various quiz modes, progress tracking, and a responsive interface with a Malay language UI.
+An interactive quiz application built with Next.js and Tailwind CSS. The application provides various quiz modes, progress tracking, and a responsive interface with a Malay language UI.
 
 ![Quiz System Screenshot](public/screenshot.png)
 
