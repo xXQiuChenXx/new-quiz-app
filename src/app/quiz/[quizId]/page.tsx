@@ -13,13 +13,14 @@ import { useQuiz } from '@/app/hooks/useQuiz';
 import { QuizMode } from '@/app/types/quiz';
 
 interface QuizPageProps {
-  params: {
+  params: Promise<{
     quizId: string;
-  };
+  }>;
 }
 
 export default function QuizPage({ params }: QuizPageProps) {
-  const { quizId } = use(params);
+  const resolvedParams = use(params);
+  const { quizId } = resolvedParams;
   const router = useRouter();
   const [isLoading, setIsLoading] = useState(true);
   
