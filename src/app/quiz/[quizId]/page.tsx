@@ -89,100 +89,100 @@ export default function QuizPage({ params }: QuizPageProps) {
   }
   
   return (
-    <div className="min-h-screen bg-gray-50 py-8 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-3xl mx-auto">
+    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 font-sans">
+      <div className="container mx-auto p-4 sm:p-6 lg:p-8">
         {/* Header */}
-        <header className="mb-8">
-          <div className="flex justify-between items-center mb-4">
-            <Button
-              onClick={handleBackToMenu}
-              variant="outline"
-              size="sm"
-              icon={
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                  <path fillRule="evenodd" d="M9.707 16.707a1 1 0 01-1.414 0l-6-6a1 1 0 010-1.414l6-6a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l4.293 4.293a1 1 0 010 1.414z" clipRule="evenodd" />
-                </svg>
-              }
-            >
-              Kembali
-            </Button>
-            
-            <Button
-              onClick={resetQuiz}
-              variant="outline"
-              size="sm"
-              icon={
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                  <path fillRule="evenodd" d="M4 2a1 1 0 011 1v2.101a7.002 7.002 0 0111.601 2.566 1 1 0 11-1.885.666A5.002 5.002 0 005.999 7H9a1 1 0 010 2H4a1 1 0 01-1-1V3a1 1 0 011-1zm.008 9.057a1 1 0 011.276.61A5.002 5.002 0 0014.001 13H11a1 1 0 110-2h5a1 1 0 011 1v5a1 1 0 11-2 0v-2.101a7.002 7.002 0 01-11.601-2.566 1 1 0 01.61-1.276z" clipRule="evenodd" />
-                </svg>
-              }
-            >
-              Mula Semula
-            </Button>
+        <header className="mb-8 flex flex-col sm:flex-row items-start sm:items-center justify-between">
+          <div className="mb-4 sm:mb-0">
+            <h1 className="text-3xl font-bold text-gray-800">{quiz?.title}</h1>
+            <p className="text-gray-600">
+              Jawab soalan berikut untuk menguji pengetahuan anda.
+            </p>
           </div>
-          
-          <h1 className="text-2xl font-bold text-gray-900">{quiz?.title}</h1>
-          <p className="text-gray-600">
-            Soalan {currentQuestionIndex + 1} dari {questions.length}
-          </p>
+          <Button
+            onClick={handleBackToMenu}
+            variant="outline"
+            icon={
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                <path fillRule="evenodd" d="M9.707 16.707a1 1 0 01-1.414 0l-6-6a1 1 0 010-1.414l6-6a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l4.293 4.293a1 1 0 010 1.414z" clipRule="evenodd" />
+              </svg>
+            }
+          >
+            Menu Utama
+          </Button>
         </header>
         
         {/* Quiz content */}
-        <div className="space-y-6">
-          {/* Mode selector */}
-          <ModeSelector
-            currentMode={quizMode}
-            onModeChange={handleModeChange}
-            showWrongQuestionsMode={isCompleted && progress?.wrongQuestionIds.length! > 0}
-          />
-          
-          {/* Statistics panel */}
-          <StatisticsPanel statistics={statistics} />
-          
-          {/* Quiz content */}
-          {isCompleted && quizMode !== QuizMode.WRONG_QUESTIONS ? (
-            <CompletionScreen
-              statistics={statistics}
-              hasWrongAnswers={progress?.wrongQuestionIds.length! > 0}
-              onRestart={resetQuiz}
-              onTryWrongQuestions={handleTryWrongQuestions}
-              onBackToMenu={handleBackToMenu}
-            />
-          ) : questions.length === 0 && quizMode === QuizMode.WRONG_QUESTIONS ? (
-            <CompletionScreen
-              statistics={statistics}
-              hasWrongAnswers={false}
-              onRestart={resetQuiz}
-              onTryWrongQuestions={handleTryWrongQuestions}
-              onBackToMenu={handleBackToMenu}
-            />
-          ) : questions.length === 0 ? (
-            <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-6 text-center">
-              <div className="mb-4">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12 mx-auto text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+          <main className="lg:col-span-2 space-y-6">
+            {isCompleted && quizMode !== QuizMode.WRONG_QUESTIONS ? (
+              <CompletionScreen
+                statistics={statistics}
+                hasWrongAnswers={progress?.wrongQuestionIds.length! > 0}
+                onRestart={resetQuiz}
+                onTryWrongQuestions={handleTryWrongQuestions}
+                onBackToMenu={handleBackToMenu}
+              />
+            ) : questions.length === 0 && quizMode === QuizMode.WRONG_QUESTIONS ? (
+              <CompletionScreen
+                statistics={statistics}
+                hasWrongAnswers={false}
+                onRestart={resetQuiz}
+                onTryWrongQuestions={handleTryWrongQuestions}
+                onBackToMenu={handleBackToMenu}
+              />
+            ) : questions.length === 0 ? (
+              <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-6 text-center">
+                <div className="mb-4">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12 mx-auto text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                </div>
+                <h3 className="text-lg font-medium text-gray-900 mb-2">Tiada Soalan</h3>
+                <p className="text-gray-600 mb-4">
+                  Tiada soalan tersedia untuk mod ini.
+                </p>
+                <Button onClick={() => changeMode(QuizMode.SEQUENTIAL)} variant="primary">
+                  Kembali ke Kuiz Utama
+                </Button>
               </div>
-              <h3 className="text-lg font-medium text-gray-900 mb-2">Tiada Soalan</h3>
-              <p className="text-gray-600 mb-4">
-                Tiada soalan tersedia untuk kuiz ini.
-              </p>
-              <Button onClick={handleBackToMenu} variant="primary">
-                Kembali ke Menu Utama
-              </Button>
-            </div>
-          ) : currentQuestion ? (
-            <QuestionCard
-              question={currentQuestion}
-              selectedOptionId={selectedOptionId || null}
-              isAnswerChecked={isAnswerChecked}
-              isCorrect={isCorrect}
-              onSelectOption={selectOption}
-              onCheckAnswer={checkAnswer}
-              onNextQuestion={nextQuestion}
-              isLastQuestion={currentQuestionIndex === questions.length - 1}
+            ) : currentQuestion ? (
+              <QuestionCard
+                question={currentQuestion}
+                selectedOptionId={selectedOptionId || null}
+                isAnswerChecked={isAnswerChecked}
+                isCorrect={isCorrect}
+                onSelectOption={selectOption}
+                onCheckAnswer={checkAnswer}
+                onNextQuestion={nextQuestion}
+                isLastQuestion={currentQuestionIndex === questions.length - 1}
+              />
+            ) : null}
+          </main>
+          
+          <aside className="space-y-6">
+            <StatisticsPanel statistics={statistics} />
+            <ModeSelector
+              currentMode={quizMode}
+              onModeChange={handleModeChange}
+              showWrongQuestionsMode={isCompleted && progress?.wrongQuestionIds.length! > 0}
             />
-          ) : null}
+            <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-4">
+                <h3 className="font-medium text-gray-900 mb-3">Tindakan</h3>
+                <Button
+                  onClick={resetQuiz}
+                  variant="outline"
+                  fullWidth
+                  icon={
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                      <path fillRule="evenodd" d="M4 2a1 1 0 011 1v2.101a7.002 7.002 0 0111.601 2.566 1 1 0 11-1.885.666A5.002 5.002 0 005.999 7H9a1 1 0 010 2H4a1 1 0 01-1-1V3a1 1 0 011-1zm.008 9.057a1 1 0 011.276.61A5.002 5.002 0 0014.001 13H11a1 1 0 110-2h5a1 1 0 011 1v5a1 1 0 11-2 0v-2.101a7.002 7.002 0 01-11.601-2.566 1 1 0 01.61-1.276z" clipRule="evenodd" />
+                    </svg>
+                  }
+                >
+                  Mula Semula Kuiz
+                </Button>
+              </div>
+          </aside>
         </div>
       </div>
     </div>
