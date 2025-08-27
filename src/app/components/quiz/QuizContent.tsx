@@ -120,7 +120,7 @@ const QuizContent = ({ quizId }: { quizId: string }) => {
             quizMode !== QuizMode.WRONG_QUESTIONS ? (
               <CompletionScreen
                 statistics={statistics}
-                hasWrongAnswers={progress?.wrongQuestionIds.length! > 0}
+                hasWrongAnswers={(progress?.wrongQuestionIds.length ?? 0) > 0}
                 onRestart={resetQuiz}
                 onTryWrongQuestions={handleTryWrongQuestions}
                 onBackToMenu={handleBackToMenu}
@@ -177,7 +177,7 @@ const QuizContent = ({ quizId }: { quizId: string }) => {
               currentMode={quizMode}
               onModeChange={handleModeChange}
               showWrongQuestionsMode={
-                isCompleted && progress?.wrongQuestionIds.length! > 0
+                isCompleted && (progress?.wrongQuestionIds.length ?? 0) > 0
               }
             />
             <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-4">
