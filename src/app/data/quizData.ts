@@ -233,3 +233,7 @@ export const getQuizzesBySubcategory = (
     quiz => quiz.categoryId === categoryId && quiz.subcategoryId === subcategoryId
   );
 };
+
+export const getQuizzesIds = (): string[] => {
+  return quizzes.map(quiz => quiz.id);
+};

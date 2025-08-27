@@ -3,7 +3,7 @@
 
 import { useEffect, useState, use } from "react";
 import { useRouter } from "next/navigation";
-import { getQuizById } from "@/app/data/quizData";
+import { getQuizById, getQuizzesIds } from "@/app/data/quizData";
 import { QuestionCard } from "@/app/components/quiz/QuestionCard";
 import { StatisticsPanel } from "@/app/components/quiz/StatisticsPanel";
 import { ModeSelector } from "@/app/components/quiz/ModeSelector";
@@ -16,6 +16,12 @@ interface QuizPageProps {
   params: Promise<{
     quizId: string;
   }>;
+}
+
+export function generateStaticParams() {
+  return getQuizzesIds().map((id) => {
+    return { quizId: id };
+  });
 }
 
 export default function QuizPage({ params }: QuizPageProps) {
