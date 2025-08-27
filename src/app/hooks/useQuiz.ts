@@ -136,7 +136,6 @@ export const useQuiz = ({
   // Move to next question
   const nextQuestion = () => {
     if (!isAnswerChecked) return;
-    console.log(currentQuestionIndex < questions.length - 1);
 
     if (currentQuestionIndex < questions.length - 1) {
       setCurrentQuestionIndex(currentQuestionIndex + 1);
@@ -147,9 +146,9 @@ export const useQuiz = ({
       // Quiz completed
       const updatedProgress = { ...progress! };
       updatedProgress.completedAt = new Date();
-      console.log("quiz completed");
       saveQuizProgress(updatedProgress);
       setProgress(updatedProgress);
+      setCurrentQuestionIndex(currentQuestionIndex + 1);
     }
   };
 

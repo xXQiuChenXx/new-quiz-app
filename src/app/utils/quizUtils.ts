@@ -171,5 +171,5 @@ export const isQuizCompleted = (
   progress?: QuizProgress
 ): boolean => {
   if (!progress) return false;
-  return progress.answeredQuestions.length === quiz.questions.length;
+  return progress.answeredQuestions.length >= quiz.questions.length;
 };

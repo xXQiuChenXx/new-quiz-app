@@ -123,7 +123,9 @@ export default function QuizPage({ params }: QuizPageProps) {
         {/* Quiz content */}
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           <main className="lg:col-span-2 space-y-6">
-            {isCompleted && quizMode !== QuizMode.WRONG_QUESTIONS ? (
+            {isCompleted &&
+            currentQuestionIndex === questions.length &&
+            quizMode !== QuizMode.WRONG_QUESTIONS ? (
               <CompletionScreen
                 statistics={statistics}
                 hasWrongAnswers={progress?.wrongQuestionIds.length! > 0}
@@ -131,8 +133,8 @@ export default function QuizPage({ params }: QuizPageProps) {
                 onTryWrongQuestions={handleTryWrongQuestions}
                 onBackToMenu={handleBackToMenu}
               />
-            ) : questions.length === 0 &&
-              quizMode === QuizMode.WRONG_QUESTIONS ? (
+            ) : currentQuestionIndex === questions.length &&
+              statistics.completion > 100 ? (
               <CompletionScreen
                 statistics={statistics}
                 hasWrongAnswers={false}
@@ -161,10 +163,7 @@ export default function QuizPage({ params }: QuizPageProps) {
                 <h3 className="text-lg font-medium text-gray-900 mb-2">
                   Tiada Soalan
                 </h3>
-                <p className="text-gray-600 mb-4">
-                  Tiada soalan tersedia. Maybe it is an error, try to press
-                  "Mula Semula Kuiz"
-                </p>
+                <p className="text-gray-600 mb-4">Tiada soalan tersedia.</p>
               </div>
             ) : currentQuestion ? (
               <QuestionCard

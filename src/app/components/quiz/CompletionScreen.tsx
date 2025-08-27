@@ -2,7 +2,7 @@
 'use client';
 
 import React from 'react';
-import { QuizStatistics, QuizMode } from '@/app/types/quiz';
+import { QuizStatistics } from '@/app/types/quiz';
 import { Button } from '../ui/Button';
 
 interface CompletionScreenProps {
