@@ -108,7 +108,7 @@ export default function QuizPage({ params }: QuizPageProps) {
             </Button>
             
             <Button
-              onClick={clearProgress}
+              onClick={resetQuiz}
               variant="outline"
               size="sm"
               icon={
@@ -117,7 +117,7 @@ export default function QuizPage({ params }: QuizPageProps) {
                 </svg>
               }
             >
-              Padam Kemajuan
+              Mula Semula
             </Button>
           </div>
           
@@ -147,7 +147,14 @@ export default function QuizPage({ params }: QuizPageProps) {
               onRestart={resetQuiz}
               onTryWrongQuestions={handleTryWrongQuestions}
               onBackToMenu={handleBackToMenu}
-              onClearProgress={clearProgress}
+            />
+          ) : questions.length === 0 && quizMode === QuizMode.WRONG_QUESTIONS ? (
+            <CompletionScreen
+              statistics={statistics}
+              hasWrongAnswers={false}
+              onRestart={resetQuiz}
+              onTryWrongQuestions={handleTryWrongQuestions}
+              onBackToMenu={handleBackToMenu}
             />
           ) : questions.length === 0 ? (
             <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-6 text-center">
@@ -158,9 +165,7 @@ export default function QuizPage({ params }: QuizPageProps) {
               </div>
               <h3 className="text-lg font-medium text-gray-900 mb-2">Tiada Soalan</h3>
               <p className="text-gray-600 mb-4">
-                {quizMode === QuizMode.WRONG_QUESTIONS
-                  ? 'Anda telah menjawab semua soalan dengan betul!'
-                  : 'Tiada soalan tersedia untuk kuiz ini.'}
+                Tiada soalan tersedia untuk kuiz ini.
               </p>
               <Button onClick={handleBackToMenu} variant="primary">
                 Kembali ke Menu Utama

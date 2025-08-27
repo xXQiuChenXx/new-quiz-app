@@ -143,24 +143,23 @@ export const useQuiz = ({ quiz, initialMode = QuizMode.SEQUENTIAL }: UseQuizProp
     setQuizMode(mode);
   };
   
-  // Reset quiz
+  // Reset quiz (now also clears progress)
   const resetQuiz = () => {
+    clearQuizProgress(quiz.id);
+    setProgress(undefined);
     setCurrentQuestionIndex(0);
     setSelectedOptionId(null);
     setIsAnswerChecked(false);
     setIsCorrect(null);
     
     // Get questions based on mode
-    const modeQuestions = getQuestionsByMode(quiz, quizMode, progress);
+    const modeQuestions = getQuestionsByMode(quiz, QuizMode.SEQUENTIAL, undefined);
     setQuestions(modeQuestions);
+    setQuizMode(QuizMode.SEQUENTIAL);
   };
   
-  // Clear progress
-  const clearProgress = () => {
-    clearQuizProgress(quiz.id);
-    setProgress(undefined);
-    resetQuiz();
-  };
+  // Clear progress (kept for backward compatibility)
+  const clearProgress = resetQuiz;
   
   return {
     currentQuestion,
