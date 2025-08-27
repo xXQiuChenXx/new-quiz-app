@@ -84,9 +84,9 @@ const QuizContent = ({ quizId }: { quizId: string }) => {
       <div className="container mx-auto p-4 sm:p-6 lg:p-8">
         {/* Header */}
         <header className="mb-8 flex flex-col sm:flex-row items-start sm:items-center justify-between">
-          <div className="mb-4 sm:mb-0">
+          <div className="mb-4 sm:mb-0 mt-3">
             <h1 className="text-3xl font-bold text-gray-800">{quiz?.title}</h1>
-            <p className="text-gray-600">
+            <p className="text-gray-600 py-2">
               Jawab soalan berikut untuk menguji pengetahuan anda.
             </p>
           </div>
