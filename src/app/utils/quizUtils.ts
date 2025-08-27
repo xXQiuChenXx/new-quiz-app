@@ -1,6 +1,16 @@
 // Utility functions for quiz operations
-import { Question, Quiz, QuizMode, QuizProgress, QuizStatistics } from '../types/quiz';
-import { getQuizStorageKey, loadFromLocalStorage, saveToLocalStorage } from './storage';
+import {
+  Question,
+  Quiz,
+  QuizMode,
+  QuizProgress,
+  QuizStatistics,
+} from "../types/quiz";
+import {
+  getQuizStorageKey,
+  loadFromLocalStorage,
+  saveToLocalStorage,
+} from "./storage";
 
 /**
  * Get questions based on the selected quiz mode
@@ -15,20 +25,25 @@ export const getQuestionsByMode = (
   progress?: QuizProgress
 ): Question[] => {
   const { questions } = quiz;
-  
+  const answeredQuestions =
+    progress?.answeredQuestions.map((q) => q.questionId) || [];
+  const filteredQuestions = quiz.questions.filter(
+    (q) => !answeredQuestions.includes(q.id)
+  );
+
   switch (mode) {
     case QuizMode.SEQUENTIAL:
-      return [...questions];
-    
+      return [...filteredQuestions];
+
     case QuizMode.RANDOM:
-      return shuffleArray([...questions]);
-    
+      return shuffleArray([...filteredQuestions]);
+
     case QuizMode.WRONG_QUESTIONS:
       if (!progress || !progress.wrongQuestionIds.length) {
         return [];
       }
-      return questions.filter(q => progress.wrongQuestionIds.includes(q.id));
-    
+      return questions.filter((q) => progress.wrongQuestionIds.includes(q.id));
+
     default:
       return [...questions];
   }
@@ -98,7 +113,9 @@ export const calculateQuizStatistics = (
 
   const totalQuestions = quiz.questions.length;
   const answeredQuestions = progress.answeredQuestions.length;
-  const correctAnswers = progress.answeredQuestions.filter(a => a.isCorrect).length;
+  const correctAnswers = progress.answeredQuestions.filter(
+    (a) => a.isCorrect
+  ).length;
   const wrongAnswers = answeredQuestions - correctAnswers;
   const completion = (answeredQuestions / totalQuestions) * 100;
 
@@ -122,7 +139,7 @@ export const isQuestionAnswered = (
   progress?: QuizProgress
 ): boolean => {
   if (!progress) return false;
-  return progress.answeredQuestions.some(a => a.questionId === questionId);
+  return progress.answeredQuestions.some((a) => a.questionId === questionId);
 };
 
 /**
@@ -136,7 +153,9 @@ export const getSelectedOptionId = (
   progress?: QuizProgress
 ): string | undefined => {
   if (!progress) return undefined;
-  const answer = progress.answeredQuestions.find(a => a.questionId === questionId);
+  const answer = progress.answeredQuestions.find(
+    (a) => a.questionId === questionId
+  );
   return answer?.selectedOptionId;
 };
 
@@ -146,7 +165,10 @@ export const getSelectedOptionId = (
  * @param progress - The quiz progress
  * @returns True if all questions have been answered
  */
-export const isQuizCompleted = (quiz: Quiz, progress?: QuizProgress): boolean => {
+export const isQuizCompleted = (
+  quiz: Quiz,
+  progress?: QuizProgress
+): boolean => {
   if (!progress) return false;
   return progress.answeredQuestions.length === quiz.questions.length;
 };

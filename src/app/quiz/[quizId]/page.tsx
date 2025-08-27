@@ -46,7 +46,6 @@ export default function QuizPage({ params }: QuizPageProps) {
     nextQuestion,
     changeMode,
     resetQuiz,
-    clearProgress,
   } = useQuiz({ quiz: quiz!, initialMode: QuizMode.SEQUENTIAL });
   
   // Check if quiz exists
