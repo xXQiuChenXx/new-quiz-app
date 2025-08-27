@@ -26,7 +26,7 @@ export const loadFromLocalStorage = <T>(key: string, defaultValue: T): T => {
   try {
     if (typeof window !== 'undefined') {
       const serializedData = localStorage.getItem(key);
-      if (serializedData === null) {
+      if (serializedData === "undefined" || serializedData === null) {
         return defaultValue;
       }
       return JSON.parse(serializedData) as T;

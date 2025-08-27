@@ -7,6 +7,7 @@ import {
   QuizStatistics,
 } from "../types/quiz";
 import {
+  clearFromLocalStorage,
   getQuizStorageKey,
   loadFromLocalStorage,
   saveToLocalStorage,
@@ -88,7 +89,7 @@ export const saveQuizProgress = (progress: QuizProgress): void => {
  */
 export const clearQuizProgress = (quizId: string): void => {
   const key = getQuizStorageKey(quizId);
-  saveToLocalStorage(key, undefined);
+  clearFromLocalStorage(key);
 };
 
 /**
