@@ -2,6 +2,7 @@
 import { Quiz, QuizCategory } from "../types/quiz";
 import { dekolonisasi } from "./dekolonisasi";
 import { epistemologi } from "./epistemologi";
+import { garisMasa } from "./etika-time";
 import { pengaruhIct } from "./ict";
 import { ideologi } from "./ideologi";
 import { kepelbagaian } from "./kepelbagaian";
@@ -50,6 +51,11 @@ export const quizCategories: QuizCategory[] = [
         id: "topik-8",
         name: "Topik 8 - Tanggungjawab Sosial",
         quizId: "tanggungjawab-sosial",
+      },
+      {
+        id: "garis-masa",
+        name: "Garis Masa Peristiwa",
+        quizId: "garis-masa",
       },
     ],
   },
@@ -102,6 +108,7 @@ export const quizzes: Quiz[] = [
   kepelbagaian,
   epistemologi,
   dekolonisasi,
+  garisMasa,
 ];
 
 /**
