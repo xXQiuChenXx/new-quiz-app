@@ -5,6 +5,7 @@ import { ideologi } from "./ideologi";
 import { metafizik } from "./metafizik";
 import { pembinaanPeradaban } from "./pembinaan-peradaban";
 import { persekutuan } from "./persekutuan";
+import { tanggungjawabSosial } from "./tanggungjawab";
 
 /**
  * Quiz categories
@@ -30,6 +31,11 @@ export const quizCategories: QuizCategory[] = [
         name: "Topik 7 - Pengaruh ICT",
         quizId: "pengaruh-ict",
       },
+      {
+        id: "topik-8",
+        name: "Topik 8 - Tanggungjawab Sosial",
+        quizId: "tanggungjawab-sosial",
+      },
     ],
   },
   {
@@ -43,7 +49,11 @@ export const quizCategories: QuizCategory[] = [
         quizId: "falsafah-topik-5",
       },
       { id: "falsafah-topik-6", name: "Topik 6", quizId: "falsafah-topik-6" },
-      { id: "falsafah-topik-7", name: "Topik 7", quizId: "falsafah-topik-7" },
+      {
+        id: "falsafah-topik-7",
+        name: "Topik 7 - Ideologi",
+        quizId: "falsafah-topik-7",
+      },
     ],
   },
 ];
@@ -57,6 +67,7 @@ export const quizzes: Quiz[] = [
   persekutuan,
   pengaruhIct,
   ideologi,
+  tanggungjawabSosial,
 
   // Falsafah - Topik 6
   {
