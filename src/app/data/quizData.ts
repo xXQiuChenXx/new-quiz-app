@@ -6,6 +6,7 @@ import { metafizik } from "./metafizik";
 import { pembinaanPeradaban } from "./pembinaan-peradaban";
 import { persekutuan } from "./persekutuan";
 import { tanggungjawabSosial } from "./tanggungjawab";
+import { tokohFalsafah } from "./tokoh-falsafah";
 
 /**
  * Quiz categories
@@ -54,6 +55,7 @@ export const quizCategories: QuizCategory[] = [
         name: "Topik 7 - Ideologi",
         quizId: "falsafah-topik-7",
       },
+      { id: "tokoh-falsafah", name: "Falsafah Tokoh", quizId: "tokoh-falsafah" },
     ],
   },
 ];
@@ -68,6 +70,7 @@ export const quizzes: Quiz[] = [
   pengaruhIct,
   ideologi,
   tanggungjawabSosial,
+  tokohFalsafah,
 
   // Falsafah - Topik 6
   {
