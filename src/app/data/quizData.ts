@@ -1,5 +1,6 @@
 // Sample quiz data
 import { Quiz, QuizCategory } from "../types/quiz";
+import { epistemologi } from "./epistemologi";
 import { pengaruhIct } from "./ict";
 import { ideologi } from "./ideologi";
 import { kepelbagaian } from "./kepelbagaian";
@@ -61,7 +62,11 @@ export const quizCategories: QuizCategory[] = [
         name: "Topik 5 - Metafizik",
         quizId: "falsafah-topik-5",
       },
-      { id: "falsafah-topik-6", name: "Topik 6", quizId: "falsafah-topik-6" },
+      {
+        id: "falsafah-topik-6",
+        name: "Topik 6 - Epistemologi",
+        quizId: "falsafah-topik-6",
+      },
       {
         id: "falsafah-topik-7",
         name: "Topik 7 - Ideologi",
@@ -89,6 +94,7 @@ export const quizzes: Quiz[] = [
   tokohFalsafah,
   kesepatuan,
   kepelbagaian,
+  epistemologi,
 
   // Falsafah - Topik 6
   {
