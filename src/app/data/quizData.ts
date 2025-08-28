@@ -2,6 +2,7 @@
 import { Quiz, QuizCategory } from "../types/quiz";
 import { pengaruhIct } from "./ict";
 import { ideologi } from "./ideologi";
+import { kepelbagaian } from "./kepelbagaian";
 import { kesepatuan } from "./kesepatuan";
 import { metafizik } from "./metafizik";
 import { pembinaanPeradaban } from "./pembinaan-peradaban";
@@ -18,6 +19,11 @@ export const quizCategories: QuizCategory[] = [
     name: "Penghayatan Etika dan Beradaban",
     lecturer: "Mdm Jacqueline Lynn (Kumpulan 3)",
     subcategories: [
+      {
+        id: "topik-3",
+        name: "Topik 3 - Kepelbagaian Masyarakat",
+        quizId: "kepelbagaian",
+      },
       {
         id: "topik-4",
         name: "Topik 4 - Kesepatuan Nasional",
@@ -82,6 +88,7 @@ export const quizzes: Quiz[] = [
   tanggungjawabSosial,
   tokohFalsafah,
   kesepatuan,
+  kepelbagaian,
 
   // Falsafah - Topik 6
   {
