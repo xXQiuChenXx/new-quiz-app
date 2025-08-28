@@ -2,6 +2,7 @@
 import { Quiz, QuizCategory } from "../types/quiz";
 import { metafizik } from "./metafizik";
 import { pembinaanPeradaban } from "./pembinaan-peradaban";
+import { persekutuan } from "./persekutuan";
 
 /**
  * Quiz categories
@@ -13,6 +14,7 @@ export const quizCategories: QuizCategory[] = [
     lecturer: "Mdm Jacqueline Lynn (Kumpulan 3)",
     subcategories: [
       { id: "topik-5", name: "Topik 5 - Pembinaan Peradaban", quizId: "pembinaan-peradaban" },
+      { id: "topik-6", name: "Topik 6 - Perlembagaan Persekutuan", quizId: "persekutuan" },
     ],
   },
   {
@@ -32,6 +34,7 @@ export const quizCategories: QuizCategory[] = [
 export const quizzes: Quiz[] = [
   metafizik,
   pembinaanPeradaban,
+  persekutuan,
 
   // Falsafah - Topik 6
   {

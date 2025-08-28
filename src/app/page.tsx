@@ -1,7 +1,7 @@
 "use client";
 
 // Main page component
-import { quizCategories } from "./data/quizData";
+import { quizCategories, quizzes } from "./data/quizData";
 import Link from "next/link";
 import { useState } from "react";
 
@@ -127,8 +127,7 @@ export default function Home() {
                         <span
                           className={`${style.badgeBgColor} ${style.badgeTextColor} text-xs font-medium py-1 px-2.5 rounded-full`}
                         >
-                          10 Soalan
-                          {/* {topic.questions.length} soalan */}
+                          {quizzes.find(q => q.id === topic.quizId)?.questions.length || 0} Soalan
                         </span>
                       </Link>
                     ))}
