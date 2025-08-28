@@ -1,5 +1,6 @@
 // Sample quiz data
 import { Quiz, QuizCategory } from "../types/quiz";
+import { dekolonisasi } from "./dekolonisasi";
 import { epistemologi } from "./epistemologi";
 import { pengaruhIct } from "./ict";
 import { ideologi } from "./ideologi";
@@ -73,6 +74,11 @@ export const quizCategories: QuizCategory[] = [
         quizId: "falsafah-topik-7",
       },
       {
+        id: "falsafah-topik-8",
+        name: "Topik 8 - Dekolonisasi",
+        quizId: "falsafah-topik-8",
+      },
+      {
         id: "tokoh-falsafah",
         name: "Falsafah Tokoh",
         quizId: "tokoh-falsafah",
@@ -95,36 +101,7 @@ export const quizzes: Quiz[] = [
   kesepatuan,
   kepelbagaian,
   epistemologi,
-
-  // Falsafah - Topik 6
-  {
-    id: "falsafah-topik-6",
-    categoryId: "falsafah",
-    subcategoryId: "topik-6",
-    title: "Falsafah Topik 6",
-    questions: [
-      {
-        id: "fal6-q1",
-        text: "Apakah definisi falsafah menurut perspektif klasik?",
-        options: [
-          { id: "a", text: "Kajian tentang fenomena alam semula jadi" },
-          { id: "b", text: "Cinta kepada kebijaksanaan" },
-          { id: "c", text: "Analisis bahasa dan logik" },
-          { id: "d", text: "Kajian tentang minda manusia" },
-        ],
-        correctOptionId: "b",
-        explanation: {
-          correct:
-            'Dari segi etimologi, falsafah berasal dari perkataan Yunani "philosophia" yang bermaksud cinta kepada kebijaksanaan.',
-          incorrect: {
-            a: "Ini lebih merujuk kepada sains fizikal, bukan falsafah secara keseluruhan.",
-            c: "Ini adalah pendekatan falsafah analitik moden, bukan definisi klasik falsafah.",
-            d: "Ini lebih merujuk kepada psikologi, walaupun falsafah minda adalah salah satu cabang falsafah.",
-          },
-        },
-      },
-    ],
-  },
+  dekolonisasi,
 ];
 
 /**
