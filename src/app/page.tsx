@@ -91,7 +91,9 @@ export default function Home() {
                     <h2 className={`text-xl font-semibold ${style.textColor}`}>
                       {category.name}
                     </h2>
-                    <p className="text-gray-600 font-semibold">Lecturer: {category.lecturer}</p>
+                    <p className="text-gray-600 font-semibold">
+                      Lecturer: {category.lecturer}
+                    </p>
                   </div>
                   <div className={style.textColor}>
                     <svg
@@ -127,7 +129,9 @@ export default function Home() {
                         <span
                           className={`${style.badgeBgColor} ${style.badgeTextColor} text-xs font-medium py-1 px-2.5 rounded-full`}
                         >
-                          {quizzes.find(q => q.id === topic.quizId)?.questions.length || 0} Soalan
+                          {quizzes.find((q) => q.id === topic.quizId)?.questions
+                            .length || 0}{" "}
+                          Soalan
                         </span>
                       </Link>
                     ))}
@@ -139,7 +143,11 @@ export default function Home() {
         </main>
 
         <footer className="mt-12 text-center text-sm text-slate-500">
-          <p>© {new Date().getFullYear()} Quiz System. All rights reserved.</p>
+          <p>
+            © {new Date().getFullYear()} New Quiz App by{" "}
+            <Link href="https://github.com/xXQiuChenXx/">Tai Hong</Link>. All
+            rights reserved.
+          </p>
         </footer>
       </div>
     </div>

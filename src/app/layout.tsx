@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Sistem Kuiz",
-  description: "Sistem kuiz interaktif dengan pelbagai mod",
+  title: "New Quiz App",
+  description: "A new interactive quiz application.",
 };
 
 export default function RootLayout({
