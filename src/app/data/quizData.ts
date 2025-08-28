@@ -1,5 +1,6 @@
 // Sample quiz data
 import { Quiz, QuizCategory } from "../types/quiz";
+import { pengaruhIct } from "./ict";
 import { metafizik } from "./metafizik";
 import { pembinaanPeradaban } from "./pembinaan-peradaban";
 import { persekutuan } from "./persekutuan";
@@ -13,8 +14,21 @@ export const quizCategories: QuizCategory[] = [
     name: "Penghayatan Etika dan Beradaban",
     lecturer: "Mdm Jacqueline Lynn (Kumpulan 3)",
     subcategories: [
-      { id: "topik-5", name: "Topik 5 - Pembinaan Peradaban", quizId: "pembinaan-peradaban" },
-      { id: "topik-6", name: "Topik 6 - Perlembagaan Persekutuan", quizId: "persekutuan" },
+      {
+        id: "topik-5",
+        name: "Topik 5 - Pembinaan Peradaban",
+        quizId: "pembinaan-peradaban",
+      },
+      {
+        id: "topik-6",
+        name: "Topik 6 - Perlembagaan Persekutuan",
+        quizId: "persekutuan",
+      },
+      {
+        id: "topik-7",
+        name: "Topik 7 - Pengaruh ICT",
+        quizId: "pengaruh-ict",
+      },
     ],
   },
   {
@@ -22,7 +36,11 @@ export const quizCategories: QuizCategory[] = [
     name: "Falsafah",
     lecturer: "NABILLAH BOLHASSAN (KUMPULAN 3)",
     subcategories: [
-      { id: "falsafah-topik-5", name: "Topik 5 - Metafizik", quizId: "falsafah-topik-5" },
+      {
+        id: "falsafah-topik-5",
+        name: "Topik 5 - Metafizik",
+        quizId: "falsafah-topik-5",
+      },
       { id: "falsafah-topik-6", name: "Topik 6", quizId: "falsafah-topik-6" },
     ],
   },
@@ -35,6 +53,7 @@ export const quizzes: Quiz[] = [
   metafizik,
   pembinaanPeradaban,
   persekutuan,
+  pengaruhIct,
 
   // Falsafah - Topik 6
   {
