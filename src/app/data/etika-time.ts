@@ -7,271 +7,389 @@ export const garisMasa: Quiz = {
   title: "Garis Masa Peristiwa",
   questions: [
     {
-      id: "sejarah-timeline-q1",
-      text: "Dasar Ekonomi Baru (DEB) telah dilancarkan pada dekad 1970-an sebagai tindak balas kepada keadaan sosioekonomi negara pada masa itu. Apakah situasi yang paling tepat menggambarkan konteks sosioekonomi pada awal dekad 1970-an yang menjadi pemangkin kepada pengenalan DEB?",
+      id: "timeline-q1",
+      text: "Pada tahun 1946, pihak British telah memperkenalkan Malayan Union. Apakah ciri utama gagasan ini yang menjadi punca penentangan hebat daripada orang Melayu?",
       options: [
         {
           id: "a",
-          text: "Negara mengalami masalah kemelesetan ekonomi yang teruk akibat kejatuhan harga komoditi timah dan getah di pasaran dunia.",
+          text: "Singapura dipisahkan daripada Tanah Melayu dan dijadikan tanah jajahan berasingan.",
         },
         {
           id: "b",
-          text: "Wujudnya fenomena 'shared prosperity' (kesejahteraan bersama) di mana kekayaan negara diagihkan secara saksama tetapi menimbulkan rasa tidak puas hati golongan pemodal.",
+          text: "Hak kerakyatan diberikan berdasarkan prinsip jus soli dan kedaulatan Raja-Raja Melayu terhakis.",
         },
         {
           id: "c",
-          text: "Berlakunya fenomena 'shared poverty' (kemiskinan bersama) dan ketidakseimbangan sosioekonomi yang ketara antara kumpulan etnik dan antara kawasan bandar-luar bandar.",
+          text: "Sistem Residen diperkenalkan di setiap negeri untuk menasihati Sultan dalam semua urusan pentadbiran.",
         },
         {
           id: "d",
-          text: "Peningkatan besar dalam pelaburan asing dalam sektor perindustrian yang menyebabkan pengabaian sektor pertanian luar bandar secara total.",
+          text: "Negeri-Negeri Melayu Bersekutu dan Tidak Bersekutu digabungkan di bawah seorang Gabenor Jeneral.",
+        },
+      ],
+      correctOptionId: "b",
+      explanation: {
+        correct:
+          "Dua isu utama yang mencetuskan kemarahan orang Melayu ialah pemberian kerakyatan yang longgar melalui prinsip jus soli dan penghapusan kedaulatan Raja-Raja Melayu, yang mana kuasa mereka hanya terhad kepada hal ehwal agama Islam dan adat istiadat Melayu.",
+        incorrect: {
+          a: "Walaupun ini adalah salah satu ciri Malayan Union, ia bukanlah punca utama penentangan. Isu kedaulatan dan kerakyatan adalah lebih sensitif dan menjadi faktor utama penentangan orang Melayu.",
+          c: "Sistem Residen diperkenalkan lebih awal, iaitu selepas Perjanjian Pangkor pada tahun 1874, dan merupakan ciri pentadbiran British sebelum Malayan Union.",
+          d: "Walaupun semua negeri Melayu disatukan di bawah seorang Gabenor British, isu penggabungan ini sendiri bukanlah punca utama kemarahan berbanding isu kedaulatan raja dan hak kerakyatan.",
+        },
+      },
+    },
+    {
+      id: "timeline-q2",
+      text: "Berikutan penolakan Malayan Union, Perjanjian Persekutuan Tanah Melayu telah dikuatkuasakan pada 1 Februari 1948. Apakah perubahan UTAMA yang diperkenalkan melalui perjanjian ini berbanding Malayan Union?",
+      options: [
+        {
+          id: "a",
+          text: "Singapura dimasukkan semula ke dalam Persekutuan Tanah Melayu.",
+        },
+        {
+          id: "b",
+          text: "Syarat kewarganegaraan diketatkan dan kedudukan Raja-Raja Melayu dipulihkan.",
+        },
+        {
+          id: "c",
+          text: "Sistem Jemaah Menteri diperkenalkan untuk menggantikan Majlis Mesyuarat Kerajaan Persekutuan.",
+        },
+        {
+          id: "d",
+          text: "Hak istimewa orang Melayu dimansuhkan sepenuhnya untuk memberi hak sama rata kepada semua warganegara.",
+        },
+      ],
+      correctOptionId: "b",
+      explanation: {
+        correct:
+          "Perjanjian ini secara langsung menangani dua bantahan utama terhadap Malayan Union dengan memulihkan kedaulatan Raja-Raja Melayu sebagai ketua negeri dan mengetatkan syarat-syarat untuk mendapatkan kewarganegaraan bagi bukan Melayu.",
+        incorrect: {
+          a: "Di bawah Perjanjian Persekutuan Tanah Melayu 1948, Singapura kekal sebagai tanah jajahan British yang berasingan.",
+          c: "Sistem Jemaah Menteri hanya diperkenalkan selepas Pilihan Raya Umum 1955, di mana Tunku Abdul Rahman membentuk kabinet pertama. Perjanjian 1948 masih mengekalkan Pesuruhjaya Tinggi British sebagai ketua eksekutif.",
+          d: "Perjanjian ini sebaliknya mengembalikan dan menjamin kedudukan istimewa orang Melayu sebagai kaum bumiputera, bertentangan dengan prinsip hak sama rata Malayan Union.",
+        },
+      },
+    },
+    {
+      id: "timeline-q3",
+      text: "Jawatankuasa Perhubungan Antara Kaum atau Communities Liaison Committee (CLC) telah ditubuhkan pada tahun 1949. Apakah peranan utama jawatankuasa ini dalam konteks sejarah menuju kemerdekaan?",
+      options: [
+        {
+          id: "a",
+          text: "Merangka draf perlembagaan pertama bagi Persekutuan Tanah Melayu.",
+        },
+        {
+          id: "b",
+          text: "Menjadi platform awal bagi pemimpin pelbagai etnik untuk berunding mengenai isu-isu sensitif.",
+        },
+        {
+          id: "c",
+          text: "Menguruskan pelaksanaan Pilihan Raya Umum Persekutuan yang pertama pada tahun 1955.",
+        },
+        {
+          id: "d",
+          text: "Menuntut kemerdekaan segera daripada pihak British tanpa melalui proses rundingan.",
+        },
+      ],
+      correctOptionId: "b",
+      explanation: {
+        correct:
+          "CLC merupakan tapak integrasi awal yang penting di mana pemimpin utama kaum Melayu, Cina, dan India bertemu untuk membincangkan dan mencari jalan penyelesaian secara muafakat terhadap isu-isu seperti kewarganegaraan dan kedudukan istimewa orang Melayu.",
+        incorrect: {
+          a: "Tugas merangka Perlembagaan Persekutuan Tanah Melayu yang merdeka dijalankan oleh Suruhanjaya Reid yang dibentuk pada tahun 1956.",
+          c: "Pilihan raya diuruskan oleh suruhanjaya pilihan raya yang ditubuhkan oleh pentadbiran British. CLC lebih fokus kepada perbincangan dasar dan hubungan antara kaum.",
+          d: "CLC adalah platform untuk rundingan dan kerjasama, bukan konfrontasi. Pendekatan kerjasama inilah yang akhirnya meyakinkan British untuk memberikan kemerdekaan.",
+        },
+      },
+    },
+    {
+      id: "timeline-q4",
+      text: "Pilihan Raya Umum Persekutuan Tanah Melayu yang pertama telah diadakan pada tahun 1955. Apakah signifikasi utama pilihan raya ini kepada landskap politik negara?",
+      options: [
+        {
+          id: "a",
+          text: "Ia menandakan berakhirnya pentadbiran British secara mutlak di Tanah Melayu.",
+        },
+        {
+          id: "b",
+          text: "Parti Perikatan memenangi semua kerusi yang dipertandingkan, menunjukkan penguasaan penuh.",
+        },
+        {
+          id: "c",
+          text: "Ia membuktikan model perkongsian kuasa antara kaum melalui Parti Perikatan diterima oleh rakyat.",
+        },
+        {
+          id: "d",
+          text: "Sistem kewarganegaraan jus soli diperkenalkan serta-merta selepas kemenangan Parti Perikatan.",
         },
       ],
       correctOptionId: "c",
       explanation: {
         correct:
-          "Ini adalah jawapan yang paling tepat. Nota kuliah secara eksplisit menyatakan bahawa pada dekad awal kemerdekaan, berlakunya 'shared poverty' (kemiskinan bersama). Pelaksanaan DEB bermula pada tahun 1971 bertujuan untuk membasmi kemiskinan dan menyusun semula masyarakat bagi mengurangkan ketidakseimbangan yang wujud.",
+          "Kemenangan besar Parti Perikatan, yang dianggotai oleh UMNO, MCA, dan MIC, menunjukkan bahawa rakyat pelbagai kaum menyokong formula kerjasama dan tolak ansur politik antara etnik sebagai asas untuk mentadbir negara.",
         incorrect: {
-          a: "Pencetus utama DEB bukanlah kemelesetan ekonomi semata-mata, tetapi ketidakseimbangan pengagihan kekayaan yang menjadi punca ketegangan sosial selepas peristiwa 13 Mei 1969.",
-          b: "Konsep 'shared prosperity' adalah matlamat yang ingin dicapai kemudian, bukan keadaan pada tahun 1970-an. Nota menyatakan DEB gagal membawa 'shared prosperity' sepenuhnya.",
-          d: "Peralihan ke arah perindustrian adalah sebahagian daripada strategi DEB. Isu utamanya ialah ketidakseimbangan, bukan pengabaian total sektor pertanian.",
+          a: "Walaupun pilihan raya ini memberikan autonomi pemerintahan dalaman, pentadbiran British masih mempunyai kuasa dalam aspek pertahanan dan hal ehwal luar negeri sehingga kemerdekaan penuh pada tahun 1957.",
+          b: "Parti Perikatan menang besar dengan memenangi 51 daripada 52 kerusi yang dipertandingkan, bukan semua. Satu kerusi dimenangi oleh PAS.",
+          d: "Isu kewarganegaraan, termasuk elemen jus soli, hanya dimuktamadkan dalam Perlembagaan Persekutuan pada tahun 1957 selepas rundingan dengan Suruhanjaya Reid, sebagai sebahagian daripada kontrak sosial.",
         },
       },
     },
     {
-      id: "sejarah-timeline-q2",
-      text: "Selepas penentangan hebat terhadap Malayan Union, Perlembagaan Persekutuan Tanah Melayu 1948 telah digubal. Manakah antara ciri-ciri berikut yang membezakannya secara signifikan daripada perlembagaan Malayan Union 1946?",
+      id: "timeline-q5",
+      text: "Selepas peristiwa 13 Mei 1969, kerajaan telah memperkenalkan satu ideologi kebangsaan pada 31 Ogos 1970 untuk memupuk semula perpaduan kaum. Apakah ideologi tersebut?",
+      options: [
+        { id: "a", text: "Dasar Ekonomi Baru" },
+        { id: "b", text: "Rukun Negara" },
+        { id: "c", text: "Wawasan 2020" },
+        { id: "d", text: "Gagasan 1Malaysia" },
+      ],
+      correctOptionId: "b",
+      explanation: {
+        correct:
+          "Rukun Negara telah diisytiharkan oleh Yang di-Pertuan Agong pada 31 Ogos 1970 sebagai ideologi dan falsafah negara yang menggariskan lima prinsip untuk membimbing rakyat Malaysia ke arah perpaduan yang lebih erat.",
+        incorrect: {
+          a: "Dasar Ekonomi Baru (DEB) dilancarkan pada tahun 1971 di bawah Rancangan Malaysia Kedua. Walaupun matlamatnya untuk mengukuhkan perpaduan melalui pengagihan ekonomi, ia adalah sebuah dasar ekonomi, bukan ideologi kebangsaan.",
+          c: "Wawasan 2020 diperkenalkan oleh Tun Dr. Mahathir Mohamad pada tahun 1991, dengan matlamat menjadikan Malaysia sebuah negara maju.",
+          d: "Gagasan 1Malaysia diperkenalkan oleh Dato' Sri Najib Razak pada tahun 2009 untuk memupuk perpaduan dalam kepelbagaian.",
+        },
+      },
+    },
+    {
+      id: "timeline-q6",
+      text: 'Istilah "Perpaduan" secara rasmi diperkenalkan dan digunakan secara meluas dalam perancangan pembangunan negara bagi menggantikan konsep "Kesatuan" selepas satu peristiwa bersejarah. Bilakah perubahan istilah ini mula dilaksanakan secara dasar?',
       options: [
         {
           id: "a",
-          text: "Singapura disatukan ke dalam persekutuan bersama negeri-negeri Melayu yang lain.",
+          text: "Sejurus selepas pembentukan Malaysia pada tahun 1963.",
         },
-        {
-          id: "b",
-          text: "Kuasa Raja-Raja Melayu dikembalikan sepenuhnya, manakala syarat kewarganegaraan dilonggarkan berdasarkan prinsip jus soli.",
-        },
-        {
-          id: "c",
-          text: "Kedudukan Raja-Raja Melayu sebagai ketua negeri dipulihkan, dan syarat kewarganegaraan diketatkan berbanding Malayan Union.",
-        },
+        { id: "b", text: "Selepas tragedi rusuhan kaum pada 13 Mei 1969." },
+        { id: "c", text: "Melalui pengenalan Rukun Negara pada tahun 1970." },
         {
           id: "d",
-          text: "Sistem pentadbiran berpusat di bawah seorang Gabenor British dikekalkan, tetapi Majlis Raja-Raja diberi kuasa veto.",
+          text: "Dalam Rancangan Malaysia Kedua yang bermula pada tahun 1971.",
         },
       ],
-      correctOptionId: "c",
+      correctOptionId: "d",
       explanation: {
         correct:
-          "Ini adalah perbezaan paling utama. Malayan Union menghapuskan kedaulatan Raja-Raja Melayu, tetapi PTM 1948 mengembalikannya. Selain itu, prinsip kewarganegaraan jus soli yang longgar dalam Malayan Union telah diketatkan dengan ketara dalam PTM 1948.",
+          'Dokumen Rancangan Malaysia Kedua (1971-1975) secara eksplisit menggunakan istilah "Perpaduan Negara" sebagai matlamat utamanya, menggantikan retorik "Kesatuan" yang digunakan sebelum ini, dan menggariskan strategi penyatuan sosial melalui DEB.',
         incorrect: {
-          a: "Di bawah PTM 1948, Singapura kekal sebagai tanah jajahan British yang berasingan, sama seperti dalam gagasan Malayan Union.",
-          b: "Walaupun kedaulatan raja dipulihkan, syarat kewarganegaraan PTM 1948 adalah lebih ketat, bukan lebih longgar.",
-          d: "Kerajaan persekutuan masih diketuai oleh Pesuruhjaya Tinggi British, dan Majlis Raja-Raja tidak diberi kuasa veto ke atas semua undang-undang.",
+          a: "Selepas 1963, konsep yang ditekankan masih lagi berkisar tentang 'Kesatuan' dalam sebuah persekutuan yang lebih luas.",
+          b: "Walaupun peristiwa 1969 menjadi pencetus utama kepada perubahan ini, pelaksanaan dasar secara rasmi berlaku kemudian. Peristiwa itu sendiri adalah punca, bukan tarikh pelaksanaannya.",
+          c: 'Rukun Negara diperkenalkan untuk membina perpaduan, tetapi penggunaan istilah "Perpaduan" secara spesifik dalam kerangka dasar pembangunan ekonomi dan sosial negara bermula selepas itu.',
         },
       },
     },
     {
-      id: "sejarah-timeline-q3",
-      text: "Susun peristiwa-peristiwa berikut mengikut urutan kronologi yang betul mengenai campur tangan British di Tanah Melayu: I. Penubuhan NNMB (1896), II. Perjanjian Bangkok (1909), III. Pendudukan Pulau Pinang (1786), IV. Perjanjian Pangkor (1874).",
+      id: "timeline-q7",
+      text: "Dasar Ekonomi Baru (DEB) telah dilancarkan pada tahun 1971 dengan matlamat serampang dua mata. Apakah matlamat tersebut?\nI. Membasmi kemiskinan tanpa mengira kaum.\nII. Menghapuskan pengenalan kaum mengikut fungsi ekonomi.\nIII. Mencapai pemilikan ekuiti korporat 50% oleh Bumiputera.\nIV. Membandarkan masyarakat luar bandar secara besar-besaran.",
       options: [
-        { id: "a", text: "III, IV, I, II" },
-        { id: "b", text: "I, III, IV, II" },
-        { id: "c", text: "III, I, II, IV" },
-        { id: "d", text: "IV, III, I, II" },
+        { id: "a", text: "I dan II" },
+        { id: "b", text: "I dan IV" },
+        { id: "c", text: "II dan III" },
+        { id: "d", text: "III dan IV" },
       ],
       correctOptionId: "a",
       explanation: {
         correct:
-          "Urutan kronologi yang betul ialah: Pendudukan Pulau Pinang (1786) sebagai titik permulaan, diikuti Perjanjian Pangkor (1874) yang memulakan Sistem Residen, kemudian Penubuhan NNMB (1896) yang menyatukan negeri-negeri di bawah sistem Residen, dan diakhiri dengan Perjanjian Bangkok (1909) yang membawa negeri-negeri utara di bawah pengaruh British.",
+          "Dua objektif rasmi DEB yang dinyatakan dengan jelas ialah membasmi kemiskinan semua kaum dan menyusun semula masyarakat untuk menghapuskan pengenalan kaum dengan fungsi ekonomi.",
         incorrect: {
-          b: "Urutan ini tidak betul kerana meletakkan penubuhan NNMB (1896) sebelum pendudukan Pulau Pinang (1786).",
-          c: "Urutan ini salah kerana meletakkan Perjanjian Pangkor (1874) selepas penubuhan NNMB (1896).",
-          d: "Urutan ini salah kerana meletakkan pendudukan Pulau Pinang (1786) selepas Perjanjian Pangkor (1874).",
+          b: "Walaupun pembandaran berlaku sebagai kesan sampingan pembangunan di bawah DEB, ia bukanlah matlamat utama yang digariskan. Matlamatnya lebih kepada penyusunan semula masyarakat.",
+          c: "Sasaran pemilikan ekuiti korporat untuk Bumiputera di bawah DEB adalah 30%, bukan 50%.",
+          d: "Kedua-dua pernyataan ini tidak tepat. Sasaran ekuiti adalah 30% dan pembandaran bukanlah objektif teras DEB.",
         },
       },
     },
     {
-      id: "sejarah-timeline-q4",
-      text: "Tragedi 13 Mei 1969 membawa kepada perubahan besar dalam wacana negara. Apakah perubahan terminologi paling signifikan yang berlaku dalam dokumen rasmi kerajaan, seperti Rancangan Malaysia Kedua (1971-1975)?",
+      id: "timeline-q8",
+      text: "Pada tahun bilakah idea untuk menghubungkan Malaysia dengan dunia melalui internet mula dicetuskan di sebuah makmal universiti tempatan, yang menjadi titik permulaan kepada pembangunan internet negara?",
+      options: [
+        { id: "a", text: "1970" },
+        { id: "b", text: "1983" },
+        { id: "c", text: "1991" },
+        { id: "d", text: "1996" },
+      ],
+      correctOptionId: "b",
+      explanation: {
+        correct:
+          "Idea awal pembangunan internet di Malaysia telah dimulakan oleh Dr. Mohamed Awang-Lah di makmal Universiti Malaya pada tahun 1983, yang kemudiannya membawa kepada penubuhan RangKoM dan JARING.",
+        incorrect: {
+          a: "Pada tahun 1970, fokus negara adalah pada Rukun Negara dan perancangan DEB. Teknologi internet global masih di peringkat awal dan belum sampai ke Malaysia.",
+          c: "Pada tahun 1991, JARING (Joint Advanced Integrated Networking) telah dilancarkan secara rasmi. Ini adalah hasil daripada idea dan usaha yang bermula lebih awal.",
+          d: "Tahun 1996 adalah tahun pelancaran Koridor Raya Multimedia (MSC), satu fasa pembangunan ICT yang lebih pesat, tetapi bukan titik permulaan idea internet di Malaysia.",
+        },
+      },
+    },
+    {
+      id: "timeline-q9",
+      text: "Pembentukan Persekutuan Malaysia pada 16 September 1963 telah memperluaskan konsep 'Kesatuan' yang sedia ada. Negeri-negeri manakah yang terlibat dalam pembentukan ini?",
       options: [
         {
           id: "a",
-          text: "Istilah 'Masyarakat Majmuk' digantikan dengan 'Masyarakat Kepelbagaian'.",
+          text: "Persekutuan Tanah Melayu, Singapura, Borneo Utara, dan Brunei.",
         },
         {
           id: "b",
-          text: "Istilah 'Kesatuan' yang digunakan sejak era kemerdekaan digantikan dengan istilah 'Perpaduan'.",
+          text: "Persekutuan Tanah Melayu, Singapura, Sarawak, dan Borneo Utara.",
         },
         {
           id: "c",
-          text: "Konsep 'Bangsa Idaman' tidak lagi digunakan dan diganti dengan konsep 'Satu Negara'.",
+          text: "Persekutuan Tanah Melayu, Singapura, Sarawak, dan Kepulauan Riau.",
         },
         {
           id: "d",
-          text: "Konsep 'Asimilasi' secara rasmi digantikan dengan 'Akomodasi'.",
+          text: "Persekutuan Tanah Melayu, Sarawak, Borneo Utara, dan Filipina.",
         },
       ],
       correctOptionId: "b",
       explanation: {
         correct:
-          "Nota kuliah dengan jelas menyatakan bahawa selepas 13 Mei 1969, perkataan 'Kesatuan' digantikan dengan 'Perpaduan', bermula secara rasmi dalam Rancangan Malaysia Kedua (RMK2) untuk menekankan usaha penyatuan sosial.",
+          "Malaysia dibentuk melalui penyatuan Persekutuan Tanah Melayu dengan tiga entiti baru iaitu Singapura, Sarawak, dan Borneo Utara (yang kemudiannya dinamakan Sabah). Singapura kemudiannya keluar dari persekutuan pada tahun 1965.",
         incorrect: {
-          a: "Peralihan dari 'majmuk' ke 'kepelbagaian' lebih merujuk kepada evolusi sosiologi yang berlaku dalam dekad-dekad kemudian, bukan perubahan terminologi utama pasca-1969.",
-          c: "Konsep 'Bangsa Idaman' terus wujud dan diperdebatkan walaupun selepas 1969, contohnya melalui Wawasan 2020.",
-          d: "Walaupun dasar negara lebih cenderung ke arah akomodasi, tiada perubahan terminologi rasmi yang spesifik dari 'asimilasi' kepada 'akomodasi' pada ketika itu.",
+          a: "Brunei pada awalnya terlibat dalam rundingan tetapi memilih untuk tidak menyertai Persekutuan Malaysia pada saat-saat akhir.",
+          c: "Kepulauan Riau adalah sebahagian daripada Indonesia dan tidak pernah terlibat dalam rundingan pembentukan Malaysia.",
+          d: "Filipina menentang pembentukan Malaysia kerana tuntutannya ke atas Borneo Utara (Sabah) dan tidak pernah menjadi sebahagian daripada rundingan penyertaan.",
         },
       },
     },
     {
-      id: "sejarah-timeline-q5",
-      text: "Dasar Ekonomi Baru (DEB) yang berlangsung dari tahun 1970 hingga 1990 mempunyai sasaran yang jelas. Berdasarkan jadual data dalam nota, apakah sasaran pemilikan ekuiti korporat bagi golongan Bumiputera pada tahun 1990?",
+      id: "timeline-q10",
+      text: "Kerajaan Malaysia telah melaksanakan satu usaha serius untuk mengukur tahap perpaduan negara secara objektif buat pertama kalinya. Bilakah Indeks Perpaduan Nasional (IPNas) ini dilaksanakan?",
       options: [
-        { id: "a", text: "16.7%" },
-        { id: "b", text: "40%" },
-        { id: "c", text: "30%" },
-        { id: "d", text: "2.4%" },
+        { id: "a", text: "1990-1991" },
+        { id: "b", text: "2008-2009" },
+        { id: "c", text: "2013-2014" },
+        { id: "d", text: "2017-2018" },
       ],
-      correctOptionId: "c",
+      correctOptionId: "d",
       explanation: {
         correct:
-          "Jadual dalam nota dengan jelas menunjukkan bahawa pemilikan Bumiputera pada tahun 1970 adalah 2.4% dan 'Sasaran pada 1990' adalah 30%.",
+          "Nota menyatakan dengan jelas bahawa usaha pertama kali dalam sejarah Malaysia untuk membina Indeks Perpaduan Nasional (IPNas) telah dilaksanakan pada tahun 2017-2018.",
         incorrect: {
-          a: "Ini adalah sasaran untuk kadar kemiskinan keseluruhan pada tahun 1990, bukan pemilikan ekuiti.",
-          b: "Ini adalah sasaran pemilikan ekuiti untuk golongan Bukan Bumiputera pada tahun 1990.",
-          d: "Ini adalah peratusan pemilikan ekuiti oleh Bumiputera pada tahun 1970, bukan sasaran untuk 1990.",
+          a: "Ini adalah era pelancaran Wawasan 2020. Tiada usaha untuk membina indeks perpaduan secara kuantitatif pada ketika ini.",
+          b: "Ini adalah era pengenalan Gagasan 1Malaysia. Walaupun fokus pada perpaduan, IPNas belum dibangunkan.",
+          c: "Ini adalah tempoh selepas PRU-13 di mana isu-isu perkauman semakin hangat, tetapi pembangunan IPNas belum dimulakan.",
         },
       },
     },
     {
-      id: "sejarah-timeline-q6",
-      text: "Sejarah pembentukan Malaysia moden dibahagikan kepada tiga era: Prakolonial, Kolonial, dan Pascakolonial. Manakah antara padanan peristiwa dan era berikut adalah yang paling tepat?",
+      id: "timeline-q11",
+      text: "Pada zaman Kesultanan Melayu Melaka (kurun ke-15), interaksi dengan pelbagai peradaban luar telah berlaku secara semula jadi. Apakah corak masyarakat yang terbentuk pada era ini?",
+      options: [
+        { id: "a", text: "Masyarakat Majmuk" },
+        { id: "b", text: "Masyarakat Pluraliti" },
+        { id: "c", text: "Masyarakat Segregasi" },
+        { id: "d", text: "Masyarakat Asimilasi" },
+      ],
+      correctOptionId: "b",
+      explanation: {
+        correct:
+          "Zaman Melaka digambarkan sebagai zaman pluraliti, di mana penghijrahan dan interaksi antara peradaban berlaku secara sukarela dan semula jadi, terutamanya melalui perdagangan. Ini membawa kepada proses asimilasi dan amalgamasi budaya tanpa paksaan.",
+        incorrect: {
+          a: "Istilah 'Masyarakat Majmuk' secara spesifik merujuk kepada masyarakat yang dibentuk semasa era penjajahan British, di mana kaum-kaum dibawa masuk untuk tujuan ekonomi dan dipisahkan mengikut fungsi pekerjaan dan penempatan.",
+          c: "Segregasi atau pemisahan kaum adalah ciri utama masyarakat majmuk era kolonial, bukan era pluraliti Melaka di mana interaksi dan pergaulan digalakkan.",
+          d: "Walaupun proses asimilasi (seperti pembentukan komuniti Baba dan Nyonya) berlaku, ia adalah salah satu hasil daripada masyarakat pluraliti. 'Pluraliti' adalah istilah yang lebih tepat untuk menggambarkan keseluruhan corak masyarakat pada ketika itu.",
+        },
+      },
+    },
+    {
+      id: "timeline-q12",
+      text: "Sebelum kedatangan kuasa kolonial Barat, negeri-negeri Melayu telah mempunyai sistem perundangan bertulis mereka sendiri. Negeri Johor dan Terengganu telah memperkenalkan perlembagaan bertulis masing-masing pada tahun:",
+      options: [
+        { id: "a", text: "1874 dan 1888" },
+        { id: "b", text: "1895 dan 1911" },
+        { id: "c", text: "1909 dan 1914" },
+        { id: "d", text: "1946 dan 1948" },
+      ],
+      correctOptionId: "b",
+      explanation: {
+        correct:
+          "Nota menyatakan bahawa Negeri Johor telah menggubal Undang-undang Tubuh Kerajaan Johor pada tahun 1895, manakala Terengganu memperkenalkan Itqan-ilmuluk bi-ta'dil il-suluk pada tahun 1911.",
+        incorrect: {
+          a: "Ini adalah tahun-tahun campur tangan British di Perak dan Pahang.",
+          c: "1909 adalah tahun Perjanjian Bangkok (penyerahan negeri-negeri utara kepada British) dan 1914 adalah tahun Johor menerima Penasihat British.",
+          d: "Ini adalah tahun pengenalan Malayan Union dan Persekutuan Tanah Melayu.",
+        },
+      },
+    },
+    {
+      id: "timeline-q13",
+      text: "Era pasca-kolonial di Malaysia menyaksikan evolusi masyarakat daripada 'masyarakat majmuk' kepada 'masyarakat kepelbagaian'. Apakah faktor utama yang memacu transformasi sosial ini bermula dari dekad 1970-an?",
+      options: [
+        { id: "a", text: "Pengenalan sistem pendidikan vernakular." },
+        {
+          id: "b",
+          text: "Pelaksanaan Dasar Ekonomi Baru (DEB) dan proses perindustrian.",
+        },
+        {
+          id: "c",
+          text: "Kemasukan beramai-ramai buruh asing dari Indonesia dan Bangladesh.",
+        },
+        {
+          id: "d",
+          text: "Penguatkuasaan Akta Hasutan yang menyekat perbincangan isu perkauman.",
+        },
+      ],
+      correctOptionId: "b",
+      explanation: {
+        correct:
+          "DEB, bersama-sama dengan pembangunan ekonomi, industrialisasi, dan migrasi dalaman dari desa ke kota, telah mengubah struktur masyarakat Malaysia. Ia mengurangkan kemiskinan, melahirkan kelas menengah yang besar, dan mewujudkan masyarakat kosmopolitan di bandar, yang membawa kepada kerencaman sosial (kepelbagaian).",
+        incorrect: {
+          a: "Sistem pendidikan vernakular wujud sejak zaman kolonial dan sering dianggap sebagai faktor yang mengekalkan pemisahan kaum, bukan memacu transformasi ke arah kepelbagaian kosmopolitan.",
+          c: "Kemasukan buruh asing menambah lapisan baharu kepada kepelbagaian, tetapi transformasi struktur masyarakat yang sedia ada (Melayu, Cina, India) lebih dipacu oleh pembangunan ekonomi dalaman dan DEB.",
+          d: "Undang-undang mungkin mengawal ekspresi konflik, tetapi ia tidak memacu transformasi struktur sosio-ekonomi masyarakat secara langsung.",
+        },
+      },
+    },
+    {
+      id: "timeline-q14",
+      text: "Bilakah Rancangan Pembangunan Lima Tahun pertama kali diperkenalkan di Tanah Melayu sebagai satu bentuk tapak integrasi untuk menyusun pembangunan negara?",
+      options: [
+        { id: "a", text: "1948-1952" },
+        { id: "b", text: "1950-1955" },
+        { id: "c", text: "1957-1961" },
+        { id: "d", text: "1963-1967" },
+      ],
+      correctOptionId: "b",
+      explanation: {
+        correct:
+          'Nota menyenaraikan "Rancangan Pembangunan Lima Tahun, 1950-55, 1956-60" sebagai salah satu contoh tapak integrasi awal yang dibina sebelum merdeka untuk menstrukturkan pembangunan.',
+        incorrect: {
+          a: "Ini adalah tempoh awal Persekutuan Tanah Melayu selepas penolakan Malayan Union.",
+          c: "Ini adalah tempoh selepas kemerdekaan, di mana rancangan pembangunan diteruskan, tetapi pengenalannya adalah lebih awal.",
+          d: "Ini adalah tempoh selepas pembentukan Malaysia.",
+        },
+      },
+    },
+    {
+      id: "timeline-q15",
+      text: 'Proses pembinaan negara bangsa Malaysia adalah satu proses yang berterusan. Bilakah Bangsa Idaman berkonsepkan "Malaysian Malaysia" mula popular dan menjadi wacana utama dalam politik negara?',
       options: [
         {
           id: "a",
-          text: "Prakolonial: Undang-Undang Tubuh Kerajaan Johor (1895); Kolonial: Penubuhan JARING (1991); Pascakolonial: Kerajaan Islam Perlak (840 M)",
+          text: "Semasa rundingan kemerdekaan pada tahun 1950-an.",
         },
         {
           id: "b",
-          text: "Prakolonial: Kedatangan Portugis (1511); Kolonial: Rancangan Malaysia Kedua (1971); Pascakolonial: Wawasan Kemakmuran Bersama (2020-2030)",
+          text: "Ketika Singapura berada dalam Persekutuan Malaysia pada tahun 1960-an.",
         },
         {
           id: "c",
-          text: "Prakolonial: Kegemilangan Kesultanan Melaka (kurun ke-15); Kolonial: Undang-Undang Tubuh Kerajaan Johor (1895); Pascakolonial: Wawasan Kemakmuran Bersama (2020-2030)",
+          text: "Selepas pelaksanaan Dasar Ekonomi Baru pada tahun 1970-an.",
         },
         {
           id: "d",
-          text: "Prakolonial: Penubuhan Negeri-Negeri Selat (1826); Kolonial: Peristiwa 13 Mei 1969; Pascakolonial: Hubungan dengan Dinasti Han",
-        },
-      ],
-      correctOptionId: "c",
-      explanation: {
-        correct:
-          "Padanan ini tepat. Kegemilangan Melaka adalah era Prakolonial. Undang-Undang Tubuh Kerajaan Johor (1895) digubal dalam konteks tekanan British, menjadikannya sebahagian era Kolonial. Wawasan Kemakmuran Bersama adalah dasar moden dalam era Pascakolonial.",
-        incorrect: {
-          a: "Semua padanan salah. Undang-Undang Johor (1895) adalah Kolonial, JARING (1991) adalah Pascakolonial, dan Perlak (840 M) adalah Prakolonial.",
-          b: "Kedatangan Portugis (1511) menandakan permulaan era Kolonial. Rancangan Malaysia Kedua (1971) adalah peristiwa Pascakolonial.",
-          d: "Semua padanan salah. Negeri-Negeri Selat (1826) adalah Kolonial, 13 Mei 1969 adalah Pascakolonial, dan hubungan dengan Dinasti Han adalah Prakolonial.",
-        },
-      },
-    },
-    {
-      id: "sejarah-timeline-q7",
-      text: "Perlembagaan Persekutuan Tanah Melayu 1957 adalah kemuncak kepada beberapa siri peristiwa. Susunkan peristiwa berikut mengikut urutan kronologi yang betul: I. Suruhanjaya Reid (1956), II. CLC (1949), III. Pilihan Raya Umum (1955), IV. Jawatankuasa Kerja (1946).",
-      options: [
-        { id: "a", text: "II, IV, III, I" },
-        { id: "b", text: "IV, II, III, I" },
-        { id: "c", text: "IV, III, II, I" },
-        { id: "d", text: "II, III, IV, I" },
-      ],
-      correctOptionId: "b",
-      explanation: {
-        correct:
-          "Urutan yang betul ialah: Jawatankuasa Kerja (1946) untuk menggantikan Malayan Union, diikuti CLC (1949) sebagai platform rundingan kaum, kemudian Pilihan Raya Umum (1955) yang memberi mandat, dan akhirnya Suruhanjaya Reid (1956) untuk merangka perlembagaan.",
-        incorrect: {
-          a: "Urutan ini salah kerana meletakkan CLC (1949) sebelum Jawatankuasa Kerja (1946).",
-          c: "Urutan ini salah kerana meletakkan Pilihan Raya 1955 sebelum CLC 1949.",
-          d: "Urutan ini salah kerana meletakkan Jawatankuasa Kerja (1946) selepas CLC (1949) dan Pilihan Raya 1955.",
-        },
-      },
-    },
-    {
-      id: "sejarah-timeline-q8",
-      text: "Sejarah internet di Malaysia bermula dengan inisiatif ahli akademik. Manakah antara berikut merupakan garis masa yang tepat bagi peristiwa penting dalam sejarah awal internet di negara ini?",
-      options: [
-        {
-          id: "a",
-          text: "1970: Pelancaran JARING; 1983: Rukun Negara; 1989: Penubuhan RangKoM",
-        },
-        {
-          id: "b",
-          text: "1970: Rukun Negara; 1983: Idea oleh Dr. Mohamed Awang-Lah; 1991: Pelancaran JARING",
-        },
-        {
-          id: "c",
-          text: "1983: Penubuhan RangKoM; 1989: Idea oleh Dr. Mohamed Awang-Lah; 1991: Pelancaran JARING",
-        },
-        {
-          id: "d",
-          text: "1970: Idea oleh Dr. Mohamed Awang-Lah; 1983: Penubuhan RangKoM; 1989: Pelancaran JARING",
+          text: "Semasa era pemerintahan Tun Abdullah Ahmad Badawi pada awal 2000-an.",
         },
       ],
       correctOptionId: "b",
       explanation: {
         correct:
-          "Garis masa ini tepat. Rukun Negara (1970) meletakkan asas falsafah. Idea awal oleh Dr. Mohamed Awang-Lah (1983) memulakan projek teknikal. RangKoM (1989) adalah fasa pembangunan, dan JARING (1991) menandakan fasa pengkomersialan.",
+          'Konsep "Malaysian Malaysia" diperkenalkan dan dipopularkan oleh Lee Kuan Yew dan partinya (PAP) semasa Singapura menjadi sebahagian daripada Malaysia (1963-1965) sebagai satu cabaran kepada konsep yang sedia ada.',
         incorrect: {
-          a: "Tarikh untuk JARING dan Rukun Negara adalah salah.",
-          c: "Urutan idea awal dan penubuhan RangKoM adalah terbalik.",
-          d: "Semua tarikh yang diberikan adalah salah.",
-        },
-      },
-    },
-    {
-      id: "sejarah-timeline-q9",
-      text: "Konsep 'Malaysian Malaysia' sering diperdebatkan dalam sejarah politik negara. Bilakah konsep ini mula dipopularkan dan menjadi wacana utama?",
-      options: [
-        { id: "a", text: "Pada era 1950-an, semasa rundingan kemerdekaan." },
-        {
-          id: "b",
-          text: "Pada era 1960-an, semasa Singapura masih dalam Persekutuan Malaysia.",
-        },
-        {
-          id: "c",
-          text: "Pada era 1980-an, sebagai sebahagian daripada usaha penerapan nilai-nilai Islam.",
-        },
-        {
-          id: "d",
-          text: "Pada era pasca-2000, serentak dengan kemunculan gagasan 'Bangsa Malaysia'.",
-        },
-      ],
-      correctOptionId: "b",
-      explanation: {
-        correct:
-          "Nota secara spesifik menyebut bahawa konsep 'Malaysian Malaysia' menjadi popular pada tahun 1960-an dan diperkenalkan oleh Lee Kuan Yew semasa Singapura berada di dalam Malaysia (1963-1965).",
-        incorrect: {
-          a: "Pada era 1950-an, konsep yang dominan adalah 'Malay-led plural society'.",
-          c: "Era 1980-an lebih tertumpu kepada dasar pembangunan di bawah DEB.",
-          d: "Walaupun ideanya mempunyai persamaan dengan wacana pasca-2000, kemunculan asalnya adalah pada era 1960-an.",
-        },
-      },
-    },
-    {
-      id: "sejarah-timeline-q10",
-      text: "Sejarah Alam Melayu menyaksikan kemunculan pelbagai kerajaan. Berdasarkan jangka masa dalam nota, susun kerajaan berikut mengikut tahun penubuhannya, dari yang paling awal: I. Brunei, II. Perlak, III. Melaka, IV. Pasai.",
-      options: [
-        { id: "a", text: "I, II, IV, III" },
-        { id: "b", text: "II, I, IV, III" },
-        { id: "c", text: "II, IV, I, III" },
-        { id: "d", text: "I, IV, II, III" },
-      ],
-      correctOptionId: "c",
-      explanation: {
-        correct:
-          "Berdasarkan tarikh yang dinyatakan dalam nota: Perlak (840 M), diikuti oleh Pasai (1042 M), kemudian Brunei (1368 M), dan akhirnya Melaka (1402 M).",
-        incorrect: {
-          a: "Urutan ini salah kerana meletakkan Brunei (1368) sebagai yang paling awal.",
-          b: "Urutan ini salah kerana meletakkan Brunei (1368) sebelum Pasai (1042).",
-          d: "Urutan ini salah kerana memulakan dengan Brunei dan tidak mengikut kronologi yang betul.",
+          a: 'Konsep yang dominan pada ketika ini ialah "Malay-led plural society" yang menjadi asas kontrak sosial.',
+          c: 'Era 1970-an lebih tertumpu kepada agenda DEB dan penyusunan semula masyarakat, bukan wacana "Malaysian Malaysia".',
+          d: 'Walaupun konsep seperti Islam Hadhari diperkenalkan, wacana "Malaysian Malaysia" tidak menjadi agenda utama pada era ini berbanding pada tahun 1960-an dan kemudiannya pada akhir 1990-an.',
         },
       },
     },
