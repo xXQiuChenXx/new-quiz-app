@@ -1,5 +1,7 @@
 // Sample quiz data
 import { Quiz, QuizCategory } from "../types/quiz";
+import { etikaCombine } from "./combine";
+import { DSTopik4 } from "./deepseek-4";
 import { DSTopik5 } from "./deepseek-5";
 import { dekolonisasi } from "./dekolonisasi";
 import { epistemologi } from "./epistemologi";
@@ -11,6 +13,7 @@ import { kesepatuan } from "./kesepatuan";
 import { metafizik } from "./metafizik";
 import { pembinaanPeradaban } from "./pembinaan-peradaban";
 import { persekutuan } from "./persekutuan";
+import { QWTopik3 } from "./qwen-3";
 import { tanggungjawabSosial } from "./tanggungjawab";
 import { tokohFalsafah } from "./tokoh-falsafah";
 
@@ -29,9 +32,19 @@ export const quizCategories: QuizCategory[] = [
         quizId: "kepelbagaian",
       },
       {
+        id: "qw-topik-3",
+        name: "Topik 3 - Qwen",
+        quizId: "qw-topik-3",
+      },
+      {
         id: "topik-4",
         name: "Topik 4 - Kesepatuan Nasional",
         quizId: "kesepatuan-national",
+      },
+      {
+        id: "ds-topik-4",
+        name: "Topik 4 - Deepseek",
+        quizId: "ds-topik-4",
       },
       {
         id: "topik-5",
@@ -62,6 +75,11 @@ export const quizCategories: QuizCategory[] = [
         id: "garis-masa",
         name: "Garis Masa Peristiwa",
         quizId: "garis-masa",
+      },
+      {
+        id: "etika-combine",
+        name: "All Topiks",
+        quizId: "etika-combine",
       },
     ],
   },
@@ -115,7 +133,10 @@ export const quizzes: Quiz[] = [
   epistemologi,
   dekolonisasi,
   garisMasa,
+  DSTopik4,
   DSTopik5,
+  QWTopik3,
+  etikaCombine,
 ];
 
 /**
