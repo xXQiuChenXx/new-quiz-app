@@ -3,7 +3,7 @@ import { Quiz } from "@/app/types/quiz";
 export const etikaCombine: Quiz = {
   id: "etika-combine",
   categoryId: "etika",
-  subcategoryId: "etika-combine",
+  subcategoryId: "etika-all",
   title: "All topik",
   questions: [
     {

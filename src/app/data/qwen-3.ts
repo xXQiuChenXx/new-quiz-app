@@ -3,7 +3,7 @@ import { Quiz } from "@/app/types/quiz";
 export const QWTopik3: Quiz = {
   id: "qw-topik-3",
   categoryId: "etika",
-  subcategoryId: "qw-topik-3",
+  subcategoryId: "qwen-topik-3",
   title: "Topik 3 - Qwen",
   questions: [
     {

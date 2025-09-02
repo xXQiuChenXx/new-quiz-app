@@ -3,7 +3,7 @@ import { Quiz } from "@/app/types/quiz";
 export const DSTopik4: Quiz = {
   id: "ds-topik-4",
   categoryId: "etika",
-  subcategoryId: "ds-topik-4",
+  subcategoryId: "deepseek-topik-4",
   title: "Topik 4 - Deepseek",
   questions: [
     {
