@@ -1,5 +1,6 @@
 // Sample quiz data
 import { Quiz, QuizCategory } from "../types/quiz";
+import { DSTopik5 } from "./deepseek-5";
 import { dekolonisasi } from "./dekolonisasi";
 import { epistemologi } from "./epistemologi";
 import { garisMasa } from "./etika-time";
@@ -36,6 +37,11 @@ export const quizCategories: QuizCategory[] = [
         id: "topik-5",
         name: "Topik 5 - Pembinaan Peradaban",
         quizId: "pembinaan-peradaban",
+      },
+      {
+        id: "ds-topik-5",
+        name: "Topik 5 - Deepseek",
+        quizId: "ds-topik-5",
       },
       {
         id: "topik-6",
@@ -109,6 +115,7 @@ export const quizzes: Quiz[] = [
   epistemologi,
   dekolonisasi,
   garisMasa,
+  DSTopik5,
 ];
 
 /**
