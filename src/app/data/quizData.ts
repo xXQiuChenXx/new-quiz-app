@@ -27,6 +27,11 @@ export const quizCategories: QuizCategory[] = [
     lecturer: "Mdm Jacqueline Lynn (Kumpulan 3)",
     subcategories: [
       {
+        id: "topik-2",
+        name: "Topik 2 - Konsep Etika",
+        quizId: "konsep-etika",
+      },
+      {
         id: "topik-3",
         name: "Topik 3 - Kepelbagaian Masyarakat",
         quizId: "kepelbagaian",
