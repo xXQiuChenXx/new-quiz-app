@@ -30,7 +30,7 @@ export const DSTopik4: Quiz = {
       correctOptionId: "b",
       explanation: {
         correct:
-          "Tapak Integrasi merujuk kepada ruang (abstrak dan nyata) di mana pelbagai kelompok strategik (etnik, agama, parti politik, NGO) bertemu untuk mencari persetujuan secara aman dan harmoni (slaid 4).",
+          "Tapak Integrasi merujuk kepada ruang (abstrak dan nyata) di mana pelbagai kelompok strategik (etnik, agama, parti politik, NGO) bertemu untuk mencari persetujuan secara aman dan harmoni (slide 4).",
         incorrect: {
           a: "Tapak Integrasi bukan dokumen undang-undang, tetapi merupakan konsep ruang pertemuan.",
           c: "Ia bukan bentuk pemerintahan, tetapi mekanisme interaksi sosial.",
@@ -62,7 +62,7 @@ export const DSTopik4: Quiz = {
       correctOptionId: "b",
       explanation: {
         correct:
-          "Perlembagaan Persekutuan dilihat sebagai kontrak sosial kerana ia merangkumi peruntukan yang memenuhi kepentingan semua komuniti di Malaysia, hasil persefahaman sebelum merdeka (slaid 3).",
+          "Perlembagaan Persekutuan dilihat sebagai kontrak sosial kerana ia merangkumi peruntukan yang memenuhi kepentingan semua komuniti di Malaysia, hasil persefahaman sebelum merdeka (slide 3).",
         incorrect: {
           a: "Walaupun digubal oleh Suruhanjaya Reid, ini bukan sebab ia dianggap kontrak sosial.",
           c: "Kebebasan beragama adalah salah satu peruntukan, tetapi bukan definisi kontrak sosial.",
@@ -94,7 +94,7 @@ export const DSTopik4: Quiz = {
       correctOptionId: "a",
       explanation: {
         correct:
-          "Orang Melayu menentang Malayan Union kerana kedaulatan Raja-Raja Melayu dihapuskan dan hak kerakyatan diberikan secara longgar berdasarkan prinsip jus soli (slaid 23).",
+          "Orang Melayu menentang Malayan Union kerana kedaulatan Raja-Raja Melayu dihapuskan dan hak kerakyatan diberikan secara longgar berdasarkan prinsip jus soli (slide 23).",
         incorrect: {
           b: "Ini bukan isu utama penentangan. Penentangan tertumpu pada isu kedaulatan raja dan kerakyatan.",
           c: "Sistem residen dan pembahagian negeri adalah ciri pentadbiran British sebelum Malayan Union.",
@@ -126,7 +126,7 @@ export const DSTopik4: Quiz = {
       correctOptionId: "b",
       explanation: {
         correct:
-          "Suruhanjaya Reid ditubuhkan untuk merangka Perlembagaan bagi Persekutuan Tanah Melayu yang merdeka (slaid 30).",
+          "Suruhanjaya Reid ditubuhkan untuk merangka Perlembagaan bagi Persekutuan Tanah Melayu yang merdeka (slide 30).",
         incorrect: {
           a: "Ini bukan tujuan utama penubuhannya. Tumpuan adalah pada penggubalan perlembagaan.",
           c: "Malayan Union telah dimansuhkan sebelum Suruhanjaya Reid ditubuhkan.",
@@ -158,7 +158,7 @@ export const DSTopik4: Quiz = {
       correctOptionId: "d",
       explanation: {
         correct:
-          "Tahap Tapak Integrasi ialah Makro (kerajaan), Meso (NGO), dan Mikro (akar umbi). Meta bukan salah satu tahap (slaid 6).",
+          "Tahap Tapak Integrasi ialah Makro (kerajaan), Meso (NGO), dan Mikro (akar umbi). Meta bukan salah satu tahap (slide 6).",
         incorrect: {
           a: "Makro adalah tahap integrasi yang melibatkan kerajaan melalui dasar-dasar.",
           b: "Meso adalah tahap integrasi yang melibatkan NGO dalam agihan pembangunan.",
@@ -190,7 +190,7 @@ export const DSTopik4: Quiz = {
       correctOptionId: "c",
       explanation: {
         correct:
-          "Amalgamasi merujuk kepada asimilasi biologi melalui perkahwinan campur antara etnik (slaid 14).",
+          "Amalgamasi merujuk kepada asimilasi biologi melalui perkahwinan campur antara etnik (slide 14).",
         incorrect: {
           a: "Ini menerangkan asimilasi budaya, bukan amalgamasi.",
           b: "Ini menerangkan akulturasi, bukan amalgamasi.",
@@ -222,7 +222,7 @@ export const DSTopik4: Quiz = {
       correctOptionId: "b",
       explanation: {
         correct:
-          "Pilihan Raya 1955 menunjukkan kerjasama etnik melalui pembahagian kerusi antara UMNO, MCA, dan MIC (slaid 28).",
+          "Pilihan Raya 1955 menunjukkan kerjasama etnik melalui pembahagian kerusi antara UMNO, MCA, dan MIC (slide 28).",
         incorrect: {
           a: "Kemerdekaan dicapai pada 1957, bukan melalui pilihan raya 1955.",
           c: "Sistem feudal tidak dihapuskan melalui pilihan raya ini.",
@@ -254,7 +254,7 @@ export const DSTopik4: Quiz = {
       correctOptionId: "b",
       explanation: {
         correct:
-          "Kebebasan asasi tidak mutlak dan tertakluk kepada kedudukan khas orang Melayu serta keselamatan negara (slaid 35).",
+          "Kebebasan asasi tidak mutlak dan tertakluk kepada kedudukan khas orang Melayu serta keselamatan negara (slide 35).",
         incorrect: {
           a: "Kebebasan asasi bukan mutlak dan boleh dipinda dengan syarat tertentu.",
           c: "Kebebasan asasi untuk semua warganegara, bukan hanya orang Melayu.",
@@ -286,7 +286,7 @@ export const DSTopik4: Quiz = {
       correctOptionId: "c",
       explanation: {
         correct:
-          "Cara mendapatkan kewarganegaraan adalah melalui operasi undang-undang, pendaftaran, naturalisasi, dan gabungan wilayah. 'Pemilihan' bukan cara yang termaktub (slaid 34).",
+          "Cara mendapatkan kewarganegaraan adalah melalui operasi undang-undang, pendaftaran, naturalisasi, dan gabungan wilayah. 'Pemilihan' bukan cara yang termaktub (slide 34).",
         incorrect: {
           a: "Naturalisasi adalah salah satu cara melalui permohonan dengan syarat tertentu.",
           b: "Pendaftaran adalah cara untuk individu tertentu seperti melalui perkahwinan.",
@@ -318,7 +318,7 @@ export const DSTopik4: Quiz = {
       correctOptionId: "b",
       explanation: {
         correct:
-          "CLC ditubuhkan untuk membincangkan isu sensitif seperti kewarganegaraan dan kedudukan khas orang Melayu (slaid 27).",
+          "CLC ditubuhkan untuk membincangkan isu sensitif seperti kewarganegaraan dan kedudukan khas orang Melayu (slide 27).",
         incorrect: {
           a: "Malayan Union telah dimansuhkan pada 1948, sebelum CLC ditubuhkan.",
           c: "CLC bukan bertujuan menentang British, tetapi untuk rundingan antara kaum.",
@@ -350,7 +350,7 @@ export const DSTopik4: Quiz = {
       correctOptionId: "b",
       explanation: {
         correct:
-          "Walaupun Islam adalah agama persekutuan, Perlembagaan memperuntukkan kebebasan untuk menganut dan mengamalkan agama lain dalam keamanan (slaid 33).",
+          "Walaupun Islam adalah agama persekutuan, Perlembagaan memperuntukkan kebebasan untuk menganut dan mengamalkan agama lain dalam keamanan (slide 33).",
         incorrect: {
           a: "Perlembagaan menjamin kebebasan beragama untuk penganut agama lain.",
           c: "Semua agama diiktiraf dan boleh diamalkan, bukan hanya Islam dan Kristian.",
@@ -382,7 +382,7 @@ export const DSTopik4: Quiz = {
       correctOptionId: "c",
       explanation: {
         correct:
-          "Akomodasi merujuk kepada sikap saling menghormati norma dan nilai antara kelompok majoriti dan minoriti (slaid 13).",
+          "Akomodasi merujuk kepada sikap saling menghormati norma dan nilai antara kelompok majoriti dan minoriti (slide 13).",
         incorrect: {
           a: "Ini menerangkan asimilasi, bukan akomodasi.",
           b: "Ini menerangkan amalgamasi, bukan akomodasi.",
@@ -414,7 +414,7 @@ export const DSTopik4: Quiz = {
       correctOptionId: "b",
       explanation: {
         correct:
-          "Suruhanjaya Reid diketuai oleh Lord William Reid, seorang hakim British (slaid 30).",
+          "Suruhanjaya Reid diketuai oleh Lord William Reid, seorang hakim British (slide 30).",
         incorrect: {
           a: "Sir Ivor Jennings adalah ahli suruhanjaya, bukan pengerusi.",
           c: "Tunku Abdul Rahman adalah pemimpin politik tempatan, tidak terlibat dalam suruhanjaya ini.",
@@ -446,7 +446,7 @@ export const DSTopik4: Quiz = {
       correctOptionId: "b",
       explanation: {
         correct:
-          "Johor (1895) dan Terengganu (1911) mempunyai perlembagaan bertulis sebelum campur tangan British, menunjukkan tradisi perlembagaan tempatan (slaid 20).",
+          "Johor (1895) dan Terengganu (1911) mempunyai perlembagaan bertulis sebelum campur tangan British, menunjukkan tradisi perlembagaan tempatan (slide 20).",
         incorrect: {
           a: "Kedua-dua negeri ini merdeka bersama Persekutuan Tanah Melayu pada 1957.",
           c: "Walaupun mereka menentang, ini bukan sebab utama kepentingan perlembagaan mereka.",
@@ -478,7 +478,7 @@ export const DSTopik4: Quiz = {
       correctOptionId: "a",
       explanation: {
         correct:
-          "Syarat kewarganegaraan dalam Perlembagaan 1948 diketatkan, bukan berdasarkan jus soli tanpa syarat seperti dalam Malayan Union (slaid 25).",
+          "Syarat kewarganegaraan dalam Perlembagaan 1948 diketatkan, bukan berdasarkan jus soli tanpa syarat seperti dalam Malayan Union (slide 25).",
         incorrect: {
           b: "Sultan memang diberi kuasa memerintah dengan nasihat majlis.",
           c: "Orang Melayu memang diberi hak istimewa dalam perlembagaan ini.",
@@ -510,7 +510,7 @@ export const DSTopik4: Quiz = {
       correctOptionId: "b",
       explanation: {
         correct:
-          "Meso merujuk kepada peranan NGO dalam agihan dan pemantauan pembangunan (slaid 6).",
+          "Meso merujuk kepada peranan NGO dalam agihan dan pemantauan pembangunan (slide 6).",
         incorrect: {
           a: "Ini menerangkan tahap Makro, bukan Meso.",
           c: "Ini menerangkan tahap Mikro, bukan Meso.",
@@ -542,7 +542,7 @@ export const DSTopik4: Quiz = {
       correctOptionId: "a",
       explanation: {
         correct:
-          "Perlembagaan Persekutuan Tanah Melayu 1948 diisytiharkan pada 1 Februari 1948, menggantikan Malayan Union (slaid 25).",
+          "Perlembagaan Persekutuan Tanah Melayu 1948 diisytiharkan pada 1 Februari 1948, menggantikan Malayan Union (slide 25).",
         incorrect: {
           b: "31 Ogos 1957 adalah tarikh kemerdekaan dan Perlembagaan Persekutuan 1957 berkuat kuasa.",
           c: "16 September 1963 adalah tarikh penubuhan Malaysia.",
@@ -574,7 +574,7 @@ export const DSTopik4: Quiz = {
       correctOptionId: "b",
       explanation: {
         correct:
-          "British memperkenalkan Malayan Union untuk menyatukan negeri-negeri di bawah pentadbiran pusat yang cekap (slaid 21).",
+          "British memperkenalkan Malayan Union untuk menyatukan negeri-negeri di bawah pentadbiran pusat yang cekap (slide 21).",
         incorrect: {
           a: "Malayan Union diperkenalkan oleh British, bukan untuk memenuhi tuntutan kemerdekaan.",
           c: "Walaupun kesan Malayan Union menghakis kuasa raja, ini bukan tujuan utama British.",
@@ -606,7 +606,7 @@ export const DSTopik4: Quiz = {
       correctOptionId: "d",
       explanation: {
         correct:
-          "Prinsip pertemuan termasuk tawar-menawar, perundingan, dan pengantaraan. Pengasingan bertentangan dengan konsep integrasi (slaid 7).",
+          "Prinsip pertemuan termasuk tawar-menawar, perundingan, dan pengantaraan. Pengasingan bertentangan dengan konsep integrasi (slide 7).",
         incorrect: {
           a: "Tawar-menawar adalah prinsip utama dalam mencapai persetujuan.",
           b: "Perundingan adalah proses penting dalam menyelesaikan perbezaan.",
@@ -638,7 +638,7 @@ export const DSTopik4: Quiz = {
       correctOptionId: "b",
       explanation: {
         correct:
-          "Dato’ Onn Jaafar terlibat dalam Jawatankuasa Kerja yang merangka perlembagaan baru menggantikan Malayan Union (slaid 24).",
+          "Dato’ Onn Jaafar terlibat dalam Jawatankuasa Kerja yang merangka perlembagaan baru menggantikan Malayan Union (slide 24).",
         incorrect: {
           a: "Tunku Abdul Rahman terlibat dalam rundingan kemerdekaan, bukan jawatankuasa ini.",
           c: "Harold MacMichael adalah wakil British untuk melaksanakan Malayan Union.",
@@ -670,7 +670,7 @@ export const DSTopik4: Quiz = {
       correctOptionId: "c",
       explanation: {
         correct:
-          "Akulturasi ialah proses pinjam-meminjam unsur budaya antara etnik tanpa menggugat identiti asal (slaid 13).",
+          "Akulturasi ialah proses pinjam-meminjam unsur budaya antara etnik tanpa menggugat identiti asal (slide 13).",
         incorrect: {
           a: "Ini menerangkan asimilasi, bukan akulturasi.",
           b: "Ini menerangkan amalgamasi, bukan akulturasi.",
@@ -702,7 +702,7 @@ export const DSTopik4: Quiz = {
       correctOptionId: "b",
       explanation: {
         correct:
-          "Perlembagaan Persekutuan ialah undang-undang tertinggi yang menjadi panduan dalam pemerintahan negara; semua undang-undang lain mesti selaras dengannya (slaid 3).",
+          "Perlembagaan Persekutuan ialah undang-undang tertinggi yang menjadi panduan dalam pemerintahan negara; semua undang-undang lain mesti selaras dengannya (slide 3).",
         incorrect: {
           a: "Walaupun digubal dengan pengaruh British, ini bukan sebab ia dianggap undang-undang tertinggi.",
           c: "Pindaan perlembagaan melibatkan Parlimen dan Majlis Raja-Raja, bukan hanya raja.",
@@ -734,7 +734,7 @@ export const DSTopik4: Quiz = {
       correctOptionId: "c",
       explanation: {
         correct:
-          "Mikro merujuk kepada inisiatif akar umbi seperti Street Wedding yang memupuk integrasi di peringkat komuniti (slaid 6).",
+          "Mikro merujuk kepada inisiatif akar umbi seperti Street Wedding yang memupuk integrasi di peringkat komuniti (slide 6).",
         incorrect: {
           a: "Ini menerangkan tahap Makro, bukan Mikro.",
           b: "Ini menerangkan tahap Meso, bukan Mikro.",
@@ -798,7 +798,7 @@ export const DSTopik4: Quiz = {
       correctOptionId: "b",
       explanation: {
         correct:
-          "Kontrak sosial merujuk kepada persefahaman antara kaum (Melayu, Cina, India) yang dicapai sebelum merdeka mengenai kedudukan istimewa Melayu dan kerakyatan (slaid 17).",
+          "Kontrak sosial merujuk kepada persefahaman antara kaum (Melayu, Cina, India) yang dicapai sebelum merdeka mengenai kedudukan istimewa Melayu dan kerakyatan (slide 17).",
         incorrect: {
           a: "Ini merujuk kepada perjanjian lain, bukan kontrak sosial antara kaum.",
           c: "Kontrak sosial bukan perjanjian perdagangan.",
@@ -830,7 +830,7 @@ export const DSTopik4: Quiz = {
       correctOptionId: "a",
       explanation: {
         correct:
-          "Malaysia ialah Negara Persekutuan, bukan Negara Kesatuan (slaid 33).",
+          "Malaysia ialah Negara Persekutuan, bukan Negara Kesatuan (slide 33).",
         incorrect: {
           b: "Islam sebagai agama persekutuan adalah unsur asas Perlembagaan.",
           c: "Bahasa Melayu sebagai bahasa kebangsaan adalah unsur asas.",
@@ -862,7 +862,7 @@ export const DSTopik4: Quiz = {
       correctOptionId: "b",
       explanation: {
         correct:
-          "NGO berperanan sebagai pengagih dan pemantau pembangunan di peringkat Meso (slaid 6).",
+          "NGO berperanan sebagai pengagih dan pemantau pembangunan di peringkat Meso (slide 6).",
         incorrect: {
           a: "Merangka dasar adalah peranan kerajaan (Makro), bukan NGO.",
           c: "NGO bukan agen keselamatan utama.",
@@ -894,7 +894,7 @@ export const DSTopik4: Quiz = {
       correctOptionId: "b",
       explanation: {
         correct:
-          "Perjanjian Persekutuan Tanah Melayu 1957 ditandatangani oleh wakil Queen Elizabeth dan Raja-Raja Melayu (slaid 17).",
+          "Perjanjian Persekutuan Tanah Melayu 1957 ditandatangani oleh wakil Queen Elizabeth dan Raja-Raja Melayu (slide 17).",
         incorrect: {
           a: "Tunku Abdul Rahman adalah Perdana Menteri pertama, tetapi bukan penandatangan perjanjian ini.",
           c: "Suruhanjaya Reid merangka perlembagaan, tetapi tidak menandatangani perjanjian.",
@@ -926,7 +926,7 @@ export const DSTopik4: Quiz = {
       correctOptionId: "a",
       explanation: {
         correct:
-          "Asimilasi ialah proses di mana kelompok minoriti menerima dan menghayati budaya majoriti (slaid 13).",
+          "Asimilasi ialah proses di mana kelompok minoriti menerima dan menghayati budaya majoriti (slide 13).",
         incorrect: {
           b: "Ini menerangkan amalgamasi, bukan asimilasi.",
           c: "Ini menerangkan akulturasi, bukan asimilasi.",
@@ -958,7 +958,7 @@ export const DSTopik4: Quiz = {
       correctOptionId: "b",
       explanation: {
         correct:
-          "Proses pindaan Perlembagaan memerlukan majoriti 2/3 di Parlimen dan perkenan Majlis Raja-Raja untuk perkara-perkara sensitif (slaid 36).",
+          "Proses pindaan Perlembagaan memerlukan majoriti 2/3 di Parlimen dan perkenan Majlis Raja-Raja untuk perkara-perkara sensitif (slide 36).",
         incorrect: {
           a: "Pindaan juga memerlukan kelulusan Parlimen, bukan hanya raja.",
           c: "Referendum bukan kaedah pindaan perlembagaan di Malaysia.",
@@ -990,7 +990,7 @@ export const DSTopik4: Quiz = {
       correctOptionId: "a",
       explanation: {
         correct:
-          "Makro merujuk kepada peranan kerajaan melalui dasar-dasar seperti Perlembagaan dan Rancangan Malaysia (slaid 6).",
+          "Makro merujuk kepada peranan kerajaan melalui dasar-dasar seperti Perlembagaan dan Rancangan Malaysia (slide 6).",
         incorrect: {
           b: "Ini menerangkan tahap Meso, bukan Makro.",
           c: "Ini menerangkan tahap Mikro, bukan Makro.",
@@ -1053,7 +1053,7 @@ export const DSTopik4: Quiz = {
       correctOptionId: "b",
       explanation: {
         correct:
-          "Rukun Tetangga ialah program keselamatan komuniti yang berperanan sebagai tapak integrasi di peringkat mikro (slaid 6).",
+          "Rukun Tetangga ialah program keselamatan komuniti yang berperanan sebagai tapak integrasi di peringkat mikro (slide 6).",
         incorrect: {
           a: "Rukun Tetangga adalah program kerajaan, bukan inisiatif akar umbi semata-mata.",
           c: "Ia bukan dasar pendidikan, tetapi program komuniti.",
@@ -1085,7 +1085,7 @@ export const DSTopik4: Quiz = {
       correctOptionId: "c",
       explanation: {
         correct:
-          "Tunku Abdul Rahman tidak terlibat dalam Suruhanjaya Reid; beliau ialah pemimpin politik tempatan (slaid 30).",
+          "Tunku Abdul Rahman tidak terlibat dalam Suruhanjaya Reid; beliau ialah pemimpin politik tempatan (slide 30).",
         incorrect: {
           a: "Sir Ivor Jennings adalah ahli suruhanjaya.",
           b: "Lord William Reid mengetuai suruhanjaya.",
@@ -1117,7 +1117,7 @@ export const DSTopik4: Quiz = {
       correctOptionId: "c",
       explanation: {
         correct:
-          "Operasi undang-undang merujuk kepada automatik menjadi warganegara melalui kelahiran mengikut syarat dalam Perlembagaan (slaid 34).",
+          "Operasi undang-undang merujuk kepada automatik menjadi warganegara melalui kelahiran mengikut syarat dalam Perlembagaan (slide 34).",
         incorrect: {
           a: "Pendaftaran adalah proses permohonan, bukan automatik.",
           b: "Naturalisasi adalah proses permohonan dengan syarat tertentu.",
@@ -1149,7 +1149,7 @@ export const DSTopik4: Quiz = {
       correctOptionId: "b",
       explanation: {
         correct:
-          "Perlembagaan menyediakan rangka untuk integrasi nasional sambil menghormati kepelbagaian etika dan peradaban (slaid 3).",
+          "Perlembagaan menyediakan rangka untuk integrasi nasional sambil menghormati kepelbagaian etika dan peradaban (slide 3).",
         incorrect: {
           a: "Ini adalah fungsi undang-undang jenayah, bukan fungsi utama perlembagaan sebagai wahana etika.",
           c: "Perlembagaan tidak menggalakkan asimilasi penuh, tetapi integrasi dalam kepelbagaian.",
@@ -1181,7 +1181,7 @@ export const DSTopik4: Quiz = {
       correctOptionId: "c",
       explanation: {
         correct:
-          "Naturalisasi ialah proses memohon warganegara melalui syarat-syarat tertentu seperti tempoh bermastautin dan pengetahuan bahasa (slaid 34).",
+          "Naturalisasi ialah proses memohon warganegara melalui syarat-syarat tertentu seperti tempoh bermastautin dan pengetahuan bahasa (slide 34).",
         incorrect: {
           a: "Ini menerangkan operasi undang-undang melalui kelahiran.",
           b: "Ini menerangkan pendaftaran melalui perkahwinan.",
@@ -1213,7 +1213,7 @@ export const DSTopik4: Quiz = {
       correctOptionId: "b",
       explanation: {
         correct:
-          "Penentangan terhadap Malayan Union membawa kepada penubuhan UMNO dan akhirnya pembatalannya (slaid 23).",
+          "Penentangan terhadap Malayan Union membawa kepada penubuhan UMNO dan akhirnya pembatalannya (slide 23).",
         incorrect: {
           a: "Kemerdekaan dicapai kemudian melalui perundingan, bukan kesan langsung MU.",
           c: "Dasar pendidikan vernakular sudah wujud sebelum MU.",
@@ -1245,7 +1245,7 @@ export const DSTopik4: Quiz = {
       correctOptionId: "c",
       explanation: {
         correct:
-          "Perlembagaan Persekutuan tidak mudah dipinda; ia memerlukan proses yang ketat seperti majoriti 2/3 (slaid 36).",
+          "Perlembagaan Persekutuan tidak mudah dipinda; ia memerlukan proses yang ketat seperti majoriti 2/3 (slide 36).",
         incorrect: {
           a: "Perlembagaan Malaysia memang merupakan dokumen bertulis.",
           b: "Perlembagaan menjadi asas kepada sistem kenegaraan.",
@@ -1277,7 +1277,7 @@ export const DSTopik4: Quiz = {
       correctOptionId: "b",
       explanation: {
         correct:
-          "Perkara sensitif memerlukan majoriti 2/3 di Parlimen dan perkenan Majlis Raja-Raja (slaid 36).",
+          "Perkara sensitif memerlukan majoriti 2/3 di Parlimen dan perkenan Majlis Raja-Raja (slide 36).",
         incorrect: {
           a: "Majoriti mudah tidak mencukupi untuk perkara sensitif.",
           c: "Perdana Menteri tidak boleh meminda sendirian.",

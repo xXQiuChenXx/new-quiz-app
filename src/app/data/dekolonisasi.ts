@@ -85,7 +85,7 @@ export const dekolonisasi: Quiz = {
       correctOptionId: "a",
       explanation: {
         correct:
-          "Slaid secara eksplisit menyatakan ini sebagai dua realiti asas dalam falsafah Descartes, yang menjadi punca kepada 'The Mind-Body Problem'.",
+          "slide secara eksplisit menyatakan ini sebagai dua realiti asas dalam falsafah Descartes, yang menjadi punca kepada 'The Mind-Body Problem'.",
         incorrect: {
           b: "Ini adalah kaedah analisis, bukan entiti asas kewujudan menurut Descartes.",
           c: "Pemisahan asas Descartes adalah antara minda (pemikiran) dan jasad (material), bukan antara spiritual dan emosional.",
@@ -204,7 +204,7 @@ export const dekolonisasi: Quiz = {
       correctOptionId: "a",
       explanation: {
         correct:
-          "Slaid secara spesifik menyenaraikan ketiga-tiga kaedah ini sebagai paksi kolonialisasi: penguasaan tanah, penguasaan ke atas manusia (pemikiran & tenaga kerja), dan penguasaan ke atas sistem ilmu.",
+          "slide secara spesifik menyenaraikan ketiga-tiga kaedah ini sebagai paksi kolonialisasi: penguasaan tanah, penguasaan ke atas manusia (pemikiran & tenaga kerja), dan penguasaan ke atas sistem ilmu.",
         incorrect: {
           b: "Walaupun relevan, ini bukanlah tiga kategori utama yang dinyatakan dalam nota.",
           c: "Ini adalah sub-kategori di bawah Penjajahan Manusia dan Epistemologi.",
@@ -236,7 +236,7 @@ export const dekolonisasi: Quiz = {
       correctOptionId: "a",
       explanation: {
         correct:
-          "Slaid mendefinisikan ini sebagai keyakinan berlebihan terhadap pengetahuan sendiri dan menjadikan ilmu Barat sebagai rujukan sejagat, yang merupakan kesan langsung penjajahan epistemologi.",
+          "slide mendefinisikan ini sebagai keyakinan berlebihan terhadap pengetahuan sendiri dan menjadikan ilmu Barat sebagai rujukan sejagat, yang merupakan kesan langsung penjajahan epistemologi.",
         incorrect: {
           b: "Ini merujuk kepada penapisan maklumat, bukan 'epistemic arrogance'.",
           c: "Ini adalah definisi umum bagi kesombongan peribadi, manakala 'epistemic arrogance' merujuk kepada kesombongan sistem ilmu.",
@@ -268,7 +268,7 @@ export const dekolonisasi: Quiz = {
       correctOptionId: "a",
       explanation: {
         correct:
-          "Slaid menyatakan bahawa pendidikan Barat dikritik kerana menghasilkan manusia tanpa kerohanian yang hanya berfungsi sebagai roda dalam jentera ekonomi kapitalis.",
+          "slide menyatakan bahawa pendidikan Barat dikritik kerana menghasilkan manusia tanpa kerohanian yang hanya berfungsi sebagai roda dalam jentera ekonomi kapitalis.",
         incorrect: {
           b: "Kritikan yang lazim adalah sebaliknya, iaitu terlalu meminggirkan kemanusiaan demi sains dan teknologi yang berorientasikan pasaran.",
           c: "Isu utamanya bukan kebebasan berfikir, tetapi kerangka pemikiran (epistemologi) yang sekular dan materialistik.",
@@ -457,7 +457,7 @@ export const dekolonisasi: Quiz = {
       correctOptionId: "a",
       explanation: {
         correct:
-          "Slaid menyatakan bahawa penjajah memberi alasan 'kemunduran wilayah bukan Eropah' sebagai justifikasi untuk bertindak sebagai 'pencetus kemajuan & modenisasi'.",
+          "slide menyatakan bahawa penjajah memberi alasan 'kemunduran wilayah bukan Eropah' sebagai justifikasi untuk bertindak sebagai 'pencetus kemajuan & modenisasi'.",
         incorrect: {
           b: "Ini bertentangan dengan pandangan Eurosentrik yang menganggap masyarakat bukan Eropah lebih rendah.",
           c: "Realiti kolonialisme adalah eksploitasi, bukan keadilan dan kesamarataan.",
@@ -492,7 +492,7 @@ export const dekolonisasi: Quiz = {
           "Falsafah Sejahtera menekankan pembangunan holistik yang seimbang (JERI), seperti yang terkandung dalam Falsafah Pendidikan Kebangsaan (FPK), dan tidak hanya melihat kepada aspek material.",
         incorrect: {
           b: "Falsafah ini mengkritik pembangunan yang hanya melihat kepada KDNK tanpa mengambil kira kesan kepada insan dan alam sekitar.",
-          c: "Slaid secara spesifik menyarankan untuk mengelakkan kursus berorientasikan pasaran semata-mata kerana ia mengabaikan aspek kemanusiaan.",
+          c: "slide secara spesifik menyarankan untuk mengelakkan kursus berorientasikan pasaran semata-mata kerana ia mengabaikan aspek kemanusiaan.",
           d: "Ini adalah pendekatan yang dikritik oleh Falsafah Sejahtera.",
         },
       },
@@ -512,7 +512,7 @@ export const dekolonisasi: Quiz = {
           "Holistik (bersepadu) adalah lawan atau antitesis kepada pemikiran dualistik yang bersifat fragmentasi (terpisah). Oleh itu, ia bukan contoh pembahagian dualistik itu sendiri.",
         incorrect: {
           b: "Minda-Jasad adalah contoh teras dalam Dualisme Cartesian.",
-          c: "Spiritual-Material adalah salah satu manifestasi pemisahan dualistik yang disenaraikan dalam slaid.",
+          c: "Spiritual-Material adalah salah satu manifestasi pemisahan dualistik yang disenaraikan dalam slide.",
           d: "Subjektif-Objektif juga disenaraikan sebagai salah satu pembahagian dualistik.",
         },
       },
@@ -541,7 +541,7 @@ export const dekolonisasi: Quiz = {
       correctOptionId: "a",
       explanation: {
         correct:
-          "Slaid menyebut bahawa dekolonisasi perlu kerana pemikiran Barat tidak mengambil kira kearifan lokal dan menganggapnya rendah. Mengetengahkan kearifan tempatan adalah sebahagian daripada proses membina jati diri.",
+          "slide menyebut bahawa dekolonisasi perlu kerana pemikiran Barat tidak mengambil kira kearifan lokal dan menganggapnya rendah. Mengetengahkan kearifan tempatan adalah sebahagian daripada proses membina jati diri.",
         incorrect: {
           b: "Isunya bukan kemajuan teknologi, tetapi kesesuaian, kelestarian, dan nilai yang terkandung di dalamnya.",
           c: "Dekolonisasi epistemologi tidak menolak semua ilmu lain, tetapi mahu mewujudkan dialog yang adil antara pelbagai sistem ilmu.",
@@ -573,7 +573,7 @@ export const dekolonisasi: Quiz = {
       correctOptionId: "a",
       explanation: {
         correct:
-          "Slaid menyarankan untuk kembali kepada Rukun Negara, di mana prinsip 'Kepercayaan kepada Tuhan' menjadi asas untuk menentang sekularisme dan membina hubungan yang harmonis antara Tuhan, manusia, dan alam.",
+          "slide menyarankan untuk kembali kepada Rukun Negara, di mana prinsip 'Kepercayaan kepada Tuhan' menjadi asas untuk menentang sekularisme dan membina hubungan yang harmonis antara Tuhan, manusia, dan alam.",
         incorrect: {
           b: "Rukun Negara dan Perlembagaan Persekutuan menjamin kebebasan beragama.",
           c: "Prinsip ini bertujuan membentuk nilai kebangsaan, bukan mengubah struktur perundangan negara secara total.",
@@ -604,9 +604,9 @@ export const dekolonisasi: Quiz = {
         correct:
           "Pernyataan IV (minat terhadap pemikiran Greek) adalah ciri utama Zaman Renaissance pada Abad ke-16.",
         incorrect: {
-          a: "Slaid menyatakan Abad ke-18 sebagai era Pencerahan yang mementingkan pemikiran rasional.",
-          c: "Slaid menyatakan Abad ke-18 sebagai era Pencerahan yang menampilkan ahli falsafah seperti Kant dan Locke.",
-          d: "Slaid menyatakan Abad ke-18 sebagai era Pencerahan yang mengukuhkan pemikiran sekular.",
+          a: "slide menyatakan Abad ke-18 sebagai era Pencerahan yang mementingkan pemikiran rasional.",
+          c: "slide menyatakan Abad ke-18 sebagai era Pencerahan yang menampilkan ahli falsafah seperti Kant dan Locke.",
+          d: "slide menyatakan Abad ke-18 sebagai era Pencerahan yang mengukuhkan pemikiran sekular.",
         },
       },
     },
@@ -634,7 +634,7 @@ export const dekolonisasi: Quiz = {
       correctOptionId: "a",
       explanation: {
         correct:
-          "Slaid mengaitkan egoisme (ketamakan) dan saintisme (kepercayaan mutlak pada sains/teknologi) dengan kemusnahan ekologi. Gabungan ini memacu aktiviti manusia (antropogenik) yang mencemarkan alam.",
+          "slide mengaitkan egoisme (ketamakan) dan saintisme (kepercayaan mutlak pada sains/teknologi) dengan kemusnahan ekologi. Gabungan ini memacu aktiviti manusia (antropogenik) yang mencemarkan alam.",
         incorrect: {
           b: "Aliran ini mendorong kepada industrialisasi, bukan kehidupan primitif.",
           c: "Saintisme mengagungkan aplikasi sains dan teknologi, bukan menolaknya.",
@@ -698,7 +698,7 @@ export const dekolonisasi: Quiz = {
       correctOptionId: "b",
       explanation: {
         correct:
-          "Slaid mendefinisikan moderniti sebagai pembaharuan orientasi pemikiran sekular yang mementingkan sains, teknologi, dan pemikiran rasional.",
+          "slide mendefinisikan moderniti sebagai pembaharuan orientasi pemikiran sekular yang mementingkan sains, teknologi, dan pemikiran rasional.",
         incorrect: {
           a: "Ini adalah ciri pemikiran pra-moden atau 'corak lama (medieval)'.",
           c: "Ini adalah ciri epistemologi Islam, bukan moderniti Barat yang cenderung memisahkan akal daripada wahyu.",
@@ -718,7 +718,7 @@ export const dekolonisasi: Quiz = {
       correctOptionId: "b",
       explanation: {
         correct:
-          "Slaid secara khusus menyebut Francis Bacon dan René Descartes sebagai dua tokoh utama aliran pemikiran moden yang pemikirannya mempengaruhi sikap Barat terhadap alam.",
+          "slide secara khusus menyebut Francis Bacon dan René Descartes sebagai dua tokoh utama aliran pemikiran moden yang pemikirannya mempengaruhi sikap Barat terhadap alam.",
         incorrect: {
           a: "Mereka adalah tokoh penting era Pencerahan, tetapi Bacon dan Descartes dianggap sebagai perintis utama pemikiran moden awal.",
           c: "Mereka adalah pemikir penting abad ke-19, bukan pelopor era moden awal.",
@@ -772,9 +772,9 @@ export const dekolonisasi: Quiz = {
         correct:
           "Islamisasi Ilmu adalah tindak balas atau gerakan dekolonisasi terhadap pemikiran Barat, bukan implikasinya.",
         incorrect: {
-          a: "Slaid secara jelas menyenaraikan Antroposentrisme sebagai kesan daripada Dualisme Cartesian.",
-          b: "Slaid secara jelas menyenaraikan Egoisme sebagai kesan daripada Dualisme Cartesian.",
-          c: "Slaid secara jelas menyenaraikan Eurosentrisme sebagai kesan daripada Dualisme Cartesian.",
+          a: "slide secara jelas menyenaraikan Antroposentrisme sebagai kesan daripada Dualisme Cartesian.",
+          b: "slide secara jelas menyenaraikan Egoisme sebagai kesan daripada Dualisme Cartesian.",
+          c: "slide secara jelas menyenaraikan Eurosentrisme sebagai kesan daripada Dualisme Cartesian.",
         },
       },
     },
@@ -834,7 +834,7 @@ export const dekolonisasi: Quiz = {
       correctOptionId: "b",
       explanation: {
         correct:
-          "Slaid menyatakan bahawa falsafah ini menganggap tamadun Barat lebih tinggi, manakala masyarakat Timur yang berpegang kepada agama dianggap mundur, bodoh, dan bebal.",
+          "slide menyatakan bahawa falsafah ini menganggap tamadun Barat lebih tinggi, manakala masyarakat Timur yang berpegang kepada agama dianggap mundur, bodoh, dan bebal.",
         incorrect: {
           a: "Ini bertentangan dengan pandangan Eurosentrik.",
           c: "Orientalis Barat sering mengkaji Timur sebagai objek yang eksotik dan rendah, bukan sebagai sumber inspirasi.",
@@ -898,7 +898,7 @@ export const dekolonisasi: Quiz = {
       correctOptionId: "b",
       explanation: {
         correct:
-          "Slaid menyatakan kritikan ini berpunca daripada semangat humanisme yang kuat dalam novel tersebut tanpa kehadiran konsep Ketuhanan yang jelas, lalu dianggap membawa mesej sekularisme secara halus.",
+          "slide menyatakan kritikan ini berpunca daripada semangat humanisme yang kuat dalam novel tersebut tanpa kehadiran konsep Ketuhanan yang jelas, lalu dianggap membawa mesej sekularisme secara halus.",
         incorrect: {
           a: "Novel ini tidak mempromosikan ateisme secara langsung.",
           c: "Novel yang sarat dengan tema Kristian ialah 'The Chronicles of Narnia', bukan 'Harry Potter'.",
@@ -1066,7 +1066,7 @@ export const dekolonisasi: Quiz = {
       correctOptionId: "a",
       explanation: {
         correct:
-          "Slaid menyatakan bahawa dekolonisasi berjaya mengubah wajah masyarakat daripada berpusatkan Barat kepada berpusatkan nilai tempatan dan mengangkat tradisi serta norma tempatan.",
+          "slide menyatakan bahawa dekolonisasi berjaya mengubah wajah masyarakat daripada berpusatkan Barat kepada berpusatkan nilai tempatan dan mengangkat tradisi serta norma tempatan.",
         incorrect: {
           b: "Dekolonisasi bertujuan untuk mengubah struktur sosial warisan penjajah.",
           c: "Ini adalah proses kolonisasi pemikiran, bukan dekolonisasi.",
@@ -1098,7 +1098,7 @@ export const dekolonisasi: Quiz = {
       correctOptionId: "a",
       explanation: {
         correct:
-          "Slaid menyenaraikan Revolusi Industri Kedua sebagai lonjakan teknologi hebat yang memberikan Barat kuasa baharu dari segi sains, teknologi, dan ketenteraan.",
+          "slide menyenaraikan Revolusi Industri Kedua sebagai lonjakan teknologi hebat yang memberikan Barat kuasa baharu dari segi sains, teknologi, dan ketenteraan.",
         incorrect: {
           b: "Revolusi ini membawa kepada pengukuhan kuasa dan kekayaan, bukan kemerosotan.",
           c: "Mereka bukan hanya bergantung, tetapi menggunakan teknologi baru untuk mengeksploitasi sumber dengan lebih efisien.",
@@ -1155,9 +1155,9 @@ export const dekolonisasi: Quiz = {
         correct:
           "Pernyataan IV adalah lebih kepada harapan berbanding realiti yang berlaku.",
         incorrect: {
-          a: "Slaid menyatakan bahawa dekolonisasi membawa kepada kemunculan demokrasi.",
-          b: "Slaid menyatakan bahawa dekolonisasi membawa kepada pelaksanaan elemennya seperti pilihan raya.",
-          c: "Slaid menyatakan bahawa dekolonisasi membawa kepada pengamalan sistem kapitalis.",
+          a: "slide menyatakan bahawa dekolonisasi membawa kepada kemunculan demokrasi.",
+          b: "slide menyatakan bahawa dekolonisasi membawa kepada pelaksanaan elemennya seperti pilihan raya.",
+          c: "slide menyatakan bahawa dekolonisasi membawa kepada pengamalan sistem kapitalis.",
         },
       },
     },

@@ -136,7 +136,7 @@ export const tanggungjawabSosial: Quiz = {
     },
     {
       id: "ep05",
-      text: "Yang manakah antara berikut paling tepat menggambarkan perbezaan fundamental antara Adat Istiadat dan Adat Resam seperti yang digambarkan dalam slaid?",
+      text: "Yang manakah antara berikut paling tepat menggambarkan perbezaan fundamental antara Adat Istiadat dan Adat Resam seperti yang digambarkan dalam slide?",
       options: [
         {
           id: "a",
@@ -232,7 +232,7 @@ export const tanggungjawabSosial: Quiz = {
     },
     {
       id: "ep08",
-      text: "Slaid menyatakan, 'Etika, moral dan akhlak adalah... tali-tali pengikat kemanusiaan, social bonding, social cement'. Apakah implikasi pernyataan ini dalam konteks sebuah negara majmuk?",
+      text: "slide menyatakan, 'Etika, moral dan akhlak adalah... tali-tali pengikat kemanusiaan, social bonding, social cement'. Apakah implikasi pernyataan ini dalam konteks sebuah negara majmuk?",
       options: [
         {
           id: "a",
@@ -482,7 +482,7 @@ export const tanggungjawabSosial: Quiz = {
     },
     {
       id: "ep16",
-      text: "Salah satu imej dalam slaid menunjukkan buku 'Building Social Business' oleh Muhammad Yunus. Apakah idea utama 'perniagaan sosial' yang relevan dengan topik ini?",
+      text: "Salah satu imej dalam slide menunjukkan buku 'Building Social Business' oleh Muhammad Yunus. Apakah idea utama 'perniagaan sosial' yang relevan dengan topik ini?",
       options: [
         {
           id: "a",
@@ -576,7 +576,7 @@ export const tanggungjawabSosial: Quiz = {
       correctOptionId: "a",
       explanation: {
         correct:
-          "Betul. Slaid secara eksplisit menyatakan bahawa individu ini akan 'memerhati, memikir, mengkaji, menganalisis, mencari penyelesaian dan bertindak'.",
+          "Betul. slide secara eksplisit menyatakan bahawa individu ini akan 'memerhati, memikir, mengkaji, menganalisis, mencari penyelesaian dan bertindak'.",
         incorrect: {
           b: "Salah. Pilihan IV (mengutamakan keuntungan peribadi) bercanggah dengan konsep kesejahteraan bersama.",
           c: "Salah. Ciri-ciri ini (III dan IV) menggambarkan individu yang pasif dan mementingkan diri, bertentangan dengan sifat tanggungjawab sosial.",
@@ -638,7 +638,7 @@ export const tanggungjawabSosial: Quiz = {
     },
     {
       id: "ep22",
-      text: "Apakah perbezaan utama antara 'Tindakan Pelanggaran' dan 'Mengurus Pelanggaran' seperti yang digambarkan dalam rajah pada slaid 16?",
+      text: "Apakah perbezaan utama antara 'Tindakan Pelanggaran' dan 'Mengurus Pelanggaran' seperti yang digambarkan dalam rajah pada slide 16?",
       options: [
         {
           id: "a",
@@ -850,7 +850,7 @@ export const tanggungjawabSosial: Quiz = {
     },
     {
       id: "ep29",
-      text: "Slaid menunjukkan imej atlet negara seperti Nicol David dan Lee Chong Wei. Bagaimanakah kejayaan mereka menyumbang kepada 'Kesedaran Nasional'?",
+      text: "slide menunjukkan imej atlet negara seperti Nicol David dan Lee Chong Wei. Bagaimanakah kejayaan mereka menyumbang kepada 'Kesedaran Nasional'?",
       options: [
         {
           id: "a",
@@ -957,7 +957,7 @@ export const tanggungjawabSosial: Quiz = {
     },
     {
       id: "ep33",
-      text: "Apakah yang boleh disimpulkan daripada pelbagai imej yang menunjukkan rakyat Malaysia dari pelbagai kaum dan budaya dalam slaid?",
+      text: "Apakah yang boleh disimpulkan daripada pelbagai imej yang menunjukkan rakyat Malaysia dari pelbagai kaum dan budaya dalam slide?",
       options: [
         {
           id: "a",
@@ -986,7 +986,7 @@ export const tanggungjawabSosial: Quiz = {
     },
     {
       id: "ep34",
-      text: "'Hati & Etika Profesional' diletakkan sebagai teras dalam rajah pada slaid 16. Ini membawa maksud bahawa:",
+      text: "'Hati & Etika Profesional' diletakkan sebagai teras dalam rajah pada slide 16. Ini membawa maksud bahawa:",
       options: [
         {
           id: "a",

@@ -466,7 +466,7 @@ export const persekutuan: Quiz = {
       correctOptionId: "b",
       explanation: {
         correct:
-          "Slaid mengenai 'Perlembagaan Persekutuan Undang-Undang Tertinggi' dengan jelas menyatakan di bawah Perkara 4(1) bahawa semua undang-undang yang bercanggah dengan Perlembagaan adalah tidak sah.",
+          "slide mengenai 'Perlembagaan Persekutuan Undang-Undang Tertinggi' dengan jelas menyatakan di bawah Perkara 4(1) bahawa semua undang-undang yang bercanggah dengan Perlembagaan adalah tidak sah.",
         incorrect: {
           a: "Ini bertentangan dengan prinsip keluhuran Perlembagaan. Parlimen sendiri tertakluk kepada Perlembagaan.",
           c: "Badan Kehakiman (mahkamah) diberi kuasa untuk mentafsir Perlembagaan.",
@@ -546,7 +546,7 @@ export const persekutuan: Quiz = {
       correctOptionId: "c",
       explanation: {
         correct:
-          "Slaid 'Kerangka Asas Perlembagaan Persekutuan' dengan jelas memaparkan keempat-empat elemen ini sebagai komponen utamanya.",
+          "slide 'Kerangka Asas Perlembagaan Persekutuan' dengan jelas memaparkan keempat-empat elemen ini sebagai komponen utamanya.",
         incorrect: {
           a: "Elemen Warisan juga merupakan sebahagian daripada kerangka asas yang dibincangkan.",
           b: "Islam sebagai agama Persekutuan adalah salah satu tonggak utama kerangka tersebut.",

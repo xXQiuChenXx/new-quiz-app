@@ -1038,7 +1038,7 @@ export const pembinaanPeradaban: Quiz = {
       correctOptionId: "b",
       explanation: {
         correct:
-          "Slaid kesimpulan merumuskan evolusi ini: 'Pra Penjajah - Peradaban majmuk → Penjajahan - Masyarakat Majmuk → Pasca Kolonial... Masyarakat Kepelbagaian'. Ini menunjukkan satu proses transformasi yang dinamik.",
+          "slide kesimpulan merumuskan evolusi ini: 'Pra Penjajah - Peradaban majmuk → Penjajahan - Masyarakat Majmuk → Pasca Kolonial... Masyarakat Kepelbagaian'. Ini menunjukkan satu proses transformasi yang dinamik.",
         incorrect: {
           a: "Salah. Nota menunjukkan satu proses transformasi sosial yang sangat dinamik merentasi zaman.",
           c: "Salah. Masyarakat Malaysia menjadi semakin rencam dan pelbagai (heterogen), bukan homogen.",

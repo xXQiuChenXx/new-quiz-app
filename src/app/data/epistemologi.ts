@@ -641,7 +641,7 @@ export const epistemologi: Quiz = {
       correctOptionId: "c",
       explanation: {
         correct:
-          "Walaupun kesepaduan antara sains tulen dan sains sosial adalah satu isu penting, ia tidak disenaraikan secara spesifik sebagai salah satu daripada tiga peringkat utama dalam slaid tersebut.",
+          "Walaupun kesepaduan antara sains tulen dan sains sosial adalah satu isu penting, ia tidak disenaraikan secara spesifik sebagai salah satu daripada tiga peringkat utama dalam slide tersebut.",
         incorrect: {
           a: "Ini disenaraikan sebagai salah satu peringkat kegagalan menyatupadukan ilmu.",
           b: "Ini disenaraikan sebagai salah satu peringkat kegagalan menyatupadukan ilmu.",
@@ -857,7 +857,7 @@ export const epistemologi: Quiz = {
     },
     {
       id: "epi6-q31",
-      text: '"Warna putih itu apa?" Soalan ini, seperti yang diisyaratkan dalam slaid, mencabar kita untuk berfikir tentang...',
+      text: '"Warna putih itu apa?" Soalan ini, seperti yang diisyaratkan dalam slide, mencabar kita untuk berfikir tentang...',
       options: [
         { id: "a", text: "sifat fizikal cahaya dan gelombang." },
         {
@@ -1002,9 +1002,9 @@ export const epistemologi: Quiz = {
         correct:
           "Walaupun spekulasi dan imaginasi boleh menjadi sebahagian daripada proses pemikiran, ia tidak disenaraikan secara eksplisit sebagai satu kategori sumber ilmu dalam nota yang diberikan.",
         incorrect: {
-          a: "Ini disenaraikan secara jelas dalam slaid 'Pelbagai Aliran'.",
-          b: "Ini disenaraikan secara jelas dalam slaid 'Pelbagai Aliran'.",
-          c: "Ini disenaraikan secara jelas dalam slaid 'Pelbagai Aliran'.",
+          a: "Ini disenaraikan secara jelas dalam slide 'Pelbagai Aliran'.",
+          b: "Ini disenaraikan secara jelas dalam slide 'Pelbagai Aliran'.",
+          c: "Ini disenaraikan secara jelas dalam slide 'Pelbagai Aliran'.",
         },
       },
     },

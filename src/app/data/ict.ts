@@ -30,7 +30,7 @@ export const pengaruhIct: Quiz = {
       correctOptionId: "b",
       explanation: {
         correct:
-          "Slaid dengan jelas menyatakan bahawa salah satu objektif dalam Bahagian Pertama Rukun Negara adalah untuk 'Membina sebuah masyarakat progresif yang akan menggunakan sains dan teknologi moden'.",
+          "slide dengan jelas menyatakan bahawa salah satu objektif dalam Bahagian Pertama Rukun Negara adalah untuk 'Membina sebuah masyarakat progresif yang akan menggunakan sains dan teknologi moden'.",
         incorrect: {
           a: "Walaupun membina sikap liberal adalah sebahagian daripada matlamat, ia tidak berkaitan secara langsung dengan penggunaan teknologi moden.",
           c: "Aspirasi utamanya adalah penggunaan teknologi untuk kemajuan, bukan pengabaiannya dalam pengagihan kemakmuran.",
@@ -50,7 +50,7 @@ export const pengaruhIct: Quiz = {
       correctOptionId: "b",
       explanation: {
         correct:
-          "Slaid menyatakan dengan jelas bahawa pada tahun 1983, Dr. Mohamed Awang-Lah memulakan idea ini di makmal Universiti Malaya.",
+          "slide menyatakan dengan jelas bahawa pada tahun 1983, Dr. Mohamed Awang-Lah memulakan idea ini di makmal Universiti Malaya.",
         incorrect: {
           a: "Tun Dr. Mahathir Mohamad dikenali sebagai penggerak utama Koridor Raya Multimedia (MSC), tetapi idea awal internet bermula lebih awal.",
           c: "Beliau adalah Pengerusi Jawatankuasa Pembangunan Modul ini, bukan perintis internet Malaysia.",
@@ -70,7 +70,7 @@ export const pengaruhIct: Quiz = {
       correctOptionId: "b",
       explanation: {
         correct:
-          "Slaid menyatakan bahawa Rangkaian Komputer Malaysia (RangKoM) ditubuhkan pada tahun 1989.",
+          "slide menyatakan bahawa Rangkaian Komputer Malaysia (RangKoM) ditubuhkan pada tahun 1989.",
         incorrect: {
           a: "Tahun 1983 adalah tahun Dr. Mohamed Awang-Lah memulakan idea untuk menghubungkan Malaysia dengan internet.",
           c: "Tahun 1991 adalah tahun pelancaran JARING (Joint Advanced Integrated Networking).",
@@ -90,7 +90,7 @@ export const pengaruhIct: Quiz = {
       correctOptionId: "c",
       explanation: {
         correct:
-          "Slaid menyatakan bahawa JARING (Joint Advanced Integrated Networking) dilancarkan pada tahun 1991 dan merupakan penyedia perkhidmatan internet (ISP) pertama di Malaysia.",
+          "slide menyatakan bahawa JARING (Joint Advanced Integrated Networking) dilancarkan pada tahun 1991 dan merupakan penyedia perkhidmatan internet (ISP) pertama di Malaysia.",
         incorrect: {
           a: "RangKoM ditubuhkan pada tahun 1989 dan merupakan pelopor kepada JARING.",
           b: "SuperJARING adalah nama untuk infrastruktur rangkaian berkelajuan tinggi oleh JARING, bukan nama rangkaian asal.",
@@ -110,7 +110,7 @@ export const pengaruhIct: Quiz = {
       correctOptionId: "b",
       explanation: {
         correct:
-          "Slaid secara spesifik menyenaraikan fungsi ICT sebagai alat yang mempercepatkan urusan (I), meringankan beban kerja (III), dan menghubungkan manusia (IV).",
+          "slide secara spesifik menyenaraikan fungsi ICT sebagai alat yang mempercepatkan urusan (I), meringankan beban kerja (III), dan menghubungkan manusia (IV).",
         incorrect: {
           a: "Pernyataan II merujuk kepada ICT sebagai 'BEBAN', bukan 'ALAT' yang membantu.",
           c: "Pernyataan II adalah ciri negatif ICT, bukan fungsinya sebagai alat yang positif.",
@@ -142,7 +142,7 @@ export const pengaruhIct: Quiz = {
       correctOptionId: "b",
       explanation: {
         correct:
-          "Slaid secara khusus menggunakan istilah Technostress untuk merujuk kepada beban hidup kerana tuntutan kerja 24 jam, 7 hari seminggu yang dimungkinkan oleh ICT.",
+          "slide secara khusus menggunakan istilah Technostress untuk merujuk kepada beban hidup kerana tuntutan kerja 24 jam, 7 hari seminggu yang dimungkinkan oleh ICT.",
         incorrect: {
           a: "Ini adalah definisi bagi Technophobia.",
           c: "Ini adalah definisi bagi buli siber.",
@@ -174,7 +174,7 @@ export const pengaruhIct: Quiz = {
       correctOptionId: "b",
       explanation: {
         correct:
-          "Slaid meletakkan istilah Technophobia di sebelah huraian tentang ICT menjadi 'beban kerja kepada orang yang tidak menguasai teknologi baharu', menunjukkan ia berkaitan dengan ketakutan atau kesukaran menyesuaikan diri dengan teknologi.",
+          "slide meletakkan istilah Technophobia di sebelah huraian tentang ICT menjadi 'beban kerja kepada orang yang tidak menguasai teknologi baharu', menunjukkan ia berkaitan dengan ketakutan atau kesukaran menyesuaikan diri dengan teknologi.",
         incorrect: {
           a: "Ini adalah definisi bagi Technostress.",
           c: "Ini adalah isu privasi yang berkaitan dengan social listening tools.",
@@ -184,7 +184,7 @@ export const pengaruhIct: Quiz = {
     },
     {
       id: "ict-q8",
-      text: "Frasa 'ICT tingkat kemahiran berfikir' muncul pada salah satu imej dalam slaid. Bagaimanakah ICT boleh meningkatkan kemahiran berfikir?",
+      text: "Frasa 'ICT tingkat kemahiran berfikir' muncul pada salah satu imej dalam slide. Bagaimanakah ICT boleh meningkatkan kemahiran berfikir?",
       options: [
         {
           id: "a",
@@ -216,7 +216,7 @@ export const pengaruhIct: Quiz = {
     },
     {
       id: "ict-q9",
-      text: "Apakah persoalan yang ditimbulkan berkaitan dengan Revolusi Industri 4.0 (IR4.0) dalam slaid?",
+      text: "Apakah persoalan yang ditimbulkan berkaitan dengan Revolusi Industri 4.0 (IR4.0) dalam slide?",
       options: [
         {
           id: "a",
@@ -238,17 +238,17 @@ export const pengaruhIct: Quiz = {
       correctOptionId: "b",
       explanation: {
         correct:
-          "Slaid secara spesifik bertanya, 'IR4.0 - menakutkan kita atau warna kehidupan baharu masyarakat?'.",
+          "slide secara spesifik bertanya, 'IR4.0 - menakutkan kita atau warna kehidupan baharu masyarakat?'.",
         incorrect: {
-          a: "Slaid tidak membincangkan isu kewangan negara berkaitan IR4.0.",
-          c: "Walaupun IR4.0 memberi kesan kepada pekerjaan, soalan dalam slaid adalah lebih umum tentang penerimaan masyarakat.",
-          d: "Persoalan ini tidak ditimbulkan dalam slaid yang dibentangkan.",
+          a: "slide tidak membincangkan isu kewangan negara berkaitan IR4.0.",
+          c: "Walaupun IR4.0 memberi kesan kepada pekerjaan, soalan dalam slide adalah lebih umum tentang penerimaan masyarakat.",
+          d: "Persoalan ini tidak ditimbulkan dalam slide yang dibentangkan.",
         },
       },
     },
     {
       id: "ict-q10",
-      text: "Menurut slaid, apakah peraturan pertama etika siber yang perlu diingat oleh pengguna?",
+      text: "Menurut slide, apakah peraturan pertama etika siber yang perlu diingat oleh pengguna?",
       options: [
         { id: "a", text: "Hormati masa orang lain." },
         { id: "b", text: "Ketahui di mana anda berada di dunia siber." },
@@ -261,7 +261,7 @@ export const pengaruhIct: Quiz = {
       correctOptionId: "c",
       explanation: {
         correct:
-          "Slaid menyenaraikan 'Peraturan 1: Ingat komunikasi sesama manusia'.",
+          "slide menyenaraikan 'Peraturan 1: Ingat komunikasi sesama manusia'.",
         incorrect: {
           a: "Ini adalah Peraturan 4 yang disenaraikan.",
           b: "Ini adalah Peraturan 3.",
@@ -406,7 +406,7 @@ export const pengaruhIct: Quiz = {
       correctOptionId: "b",
       explanation: {
         correct:
-          "Slaid 'Keibubapaan Siber' menyenaraikan 'Cara menyantuni etnik berbeza' sebagai salah satu adab yang perlu dipupuk untuk kesepaduan sosial melalui ICT.",
+          "slide 'Keibubapaan Siber' menyenaraikan 'Cara menyantuni etnik berbeza' sebagai salah satu adab yang perlu dipupuk untuk kesepaduan sosial melalui ICT.",
         incorrect: {
           a: "Menyekat perbincangan boleh menyebabkan rasa tidak puas hati, bukan kesepaduan.",
           c: "Ini akan mewujudkan pengasingan dan mengukuhkan sentimen perkauman.",
@@ -426,7 +426,7 @@ export const pengaruhIct: Quiz = {
       correctOptionId: "d",
       explanation: {
         correct:
-          "Artikel berita dalam slaid membincangkan inovasi produk 'dikenali ADAM untuk membantu mengukuhkan perpaduan antara etnik, patriotisme dan nilai jati diri'.",
+          "Artikel berita dalam slide membincangkan inovasi produk 'dikenali ADAM untuk membantu mengukuhkan perpaduan antara etnik, patriotisme dan nilai jati diri'.",
         incorrect: {
           a: "KITA (Institut Kajian Etnik) adalah institut di UKM yang membangunkan modul ini.",
           b: "JARING adalah rangkaian internet pertama Malaysia.",
@@ -446,7 +446,7 @@ export const pengaruhIct: Quiz = {
       correctOptionId: "b",
       explanation: {
         correct:
-          "Artikel berita dalam slaid menyatakan, 'Munira berkata, ADAM adalah singkatan kepada Autentik, Dinamik, Altruistik dan Manusia'.",
+          "Artikel berita dalam slide menyatakan, 'Munira berkata, ADAM adalah singkatan kepada Autentik, Dinamik, Altruistik dan Manusia'.",
         incorrect: {
           a: "Ini adalah tafsiran yang logik tetapi tidak tepat berdasarkan sumber.",
           c: "Ini adalah istilah umum dalam bidang data sains dan tiada kaitan dengan projek ADAM.",
@@ -472,7 +472,7 @@ export const pengaruhIct: Quiz = {
       correctOptionId: "c",
       explanation: {
         correct:
-          "Slaid menyatakan bahawa masyarakat perlu dilatih menggunakan teknologi 'sebagai sebahagian proses tadbir urus dan pembangunan negara'.",
+          "slide menyatakan bahawa masyarakat perlu dilatih menggunakan teknologi 'sebagai sebahagian proses tadbir urus dan pembangunan negara'.",
         incorrect: {
           a: "Walaupun ICT menyediakan hiburan, peranannya dalam pembangunan negara adalah lebih luas.",
           b: "ICT wujud bersama budaya, ia mungkin mengubahnya tetapi bukan menggantikannya sepenuhnya.",
@@ -514,7 +514,7 @@ export const pengaruhIct: Quiz = {
         correct:
           "Artikel tersebut menyatakan, 'Fake news spreads much faster than real news, and real people – not bots – are to blame, according to a recent study'.",
         incorrect: {
-          a: "Tajuk artikel dalam slaid dengan jelas menyatakan 'Fake News Spreads Fast, But Don’t Blame the Bots'.",
+          a: "Tajuk artikel dalam slide dengan jelas menyatakan 'Fake News Spreads Fast, But Don’t Blame the Bots'.",
           b: "Walaupun algoritma memainkan peranan, kajian tersebut secara spesifik menuding kepada peranan manusia.",
           d: "Walaupun undang-undang penting, kajian ini memfokuskan kepada mekanisme penyebaran berita itu sendiri.",
         },
@@ -544,7 +544,7 @@ export const pengaruhIct: Quiz = {
       correctOptionId: "b",
       explanation: {
         correct:
-          "Slaid menerangkan Deepfake sebagai kemajuan dalam kecerdasan buatan yang boleh mencipta audio dan video palsu yang meyakinkan, menjadikan 'seeing is no longer believing'.",
+          "slide menerangkan Deepfake sebagai kemajuan dalam kecerdasan buatan yang boleh mencipta audio dan video palsu yang meyakinkan, menjadikan 'seeing is no longer believing'.",
         incorrect: {
           a: "Ini adalah fungsi teknologi lain; Deepfake adalah tentang penciptaan, bukan pengesanan.",
           c: "Ini merujuk kepada perisian hasad seperti spyware atau malware.",
@@ -554,7 +554,7 @@ export const pengaruhIct: Quiz = {
     },
     {
       id: "ict-q22",
-      text: "Apakah tujuan utama 'Social Listening Tools' seperti yang dibincangkan dalam slaid?",
+      text: "Apakah tujuan utama 'Social Listening Tools' seperti yang dibincangkan dalam slide?",
       options: [
         {
           id: "a",
@@ -576,7 +576,7 @@ export const pengaruhIct: Quiz = {
       correctOptionId: "b",
       explanation: {
         correct:
-          "Slaid menunjukkan artikel yang menjelaskan 'As more brands turn to social media for customer insights, social listening tools are gaining momentum'.",
+          "slide menunjukkan artikel yang menjelaskan 'As more brands turn to social media for customer insights, social listening tools are gaining momentum'.",
         incorrect: {
           a: "Konteksnya adalah media sosial untuk tujuan komersial, bukan pengawasan panggilan telefon.",
           c: "Ini adalah teknologi bantuan, bukan alat pemantauan media sosial.",
@@ -586,7 +586,7 @@ export const pengaruhIct: Quiz = {
     },
     {
       id: "ict-q23",
-      text: "Antara berikut, yang manakah BUKAN kesan negatif atau 'beban' ICT yang dibincangkan dalam slaid?",
+      text: "Antara berikut, yang manakah BUKAN kesan negatif atau 'beban' ICT yang dibincangkan dalam slide?",
       options: [
         { id: "a", text: "Menjadi mangsa penipuan kewangan (scam)." },
         { id: "b", text: "Terdedah kepada ucapan kebencian (hate speech)." },
@@ -660,9 +660,9 @@ export const pengaruhIct: Quiz = {
       correctOptionId: "c",
       explanation: {
         correct:
-          "Ini adalah rumusan tepat daripada slaid kesimpulan yang menyatakan ICT perlu dipelajari dan diurus dengan penuh etika untuk meneraju peradaban manusia.",
+          "Ini adalah rumusan tepat daripada slide kesimpulan yang menyatakan ICT perlu dipelajari dan diurus dengan penuh etika untuk meneraju peradaban manusia.",
         incorrect: {
-          a: "Kesimpulan slaid adalah ICT perlu 'dipelajari, dikuasai dan dimanfaatkan', bukan dielakkan.",
+          a: "Kesimpulan slide adalah ICT perlu 'dipelajari, dikuasai dan dimanfaatkan', bukan dielakkan.",
           b: "Kesimpulan menekankan bahawa ICT adalah 'realiti kehidupan masa kini' dan ejen penting.",
           d: "Walaupun automasi adalah satu isu, ini bukanlah kesimpulan utama modul ini.",
         },
@@ -680,7 +680,7 @@ export const pengaruhIct: Quiz = {
       correctOptionId: "b",
       explanation: {
         correct:
-          "Slaid yang memaparkan imej-imej ini mempunyai tajuk 'menguruskan urusan kewangan dan jual beli kita'.",
+          "slide yang memaparkan imej-imej ini mempunyai tajuk 'menguruskan urusan kewangan dan jual beli kita'.",
         incorrect: {
           a: "Imej spesifik ini merujuk kepada e-dagang dan perbankan, bukan riadah.",
           c: "Ini merujuk kepada telemedicine, yang tidak digambarkan oleh imej Lazada dan Bank Islam.",
@@ -722,7 +722,7 @@ export const pengaruhIct: Quiz = {
     },
     {
       id: "ict-q28",
-      text: "Apakah tiga daripada '9 Elements of Digital Citizenship' yang dipaparkan dalam slaid?",
+      text: "Apakah tiga daripada '9 Elements of Digital Citizenship' yang dipaparkan dalam slide?",
       options: [
         { id: "a", text: "Digital Access, Digital Commerce, Digital Law" },
         { id: "b", text: "Digital Speed, Digital Storage, Digital Graphics" },
@@ -738,7 +738,7 @@ export const pengaruhIct: Quiz = {
       correctOptionId: "a",
       explanation: {
         correct:
-          "Rajah dalam slaid 19 PDF menunjukkan elemen-elemen seperti Digital Access, Digital Commerce, dan Digital Law sebagai sebahagian daripada 9 Elemen Kewarganegaraan Digital.",
+          "Rajah dalam slide 19 PDF menunjukkan elemen-elemen seperti Digital Access, Digital Commerce, dan Digital Law sebagai sebahagian daripada 9 Elemen Kewarganegaraan Digital.",
         incorrect: {
           b: "Ini adalah istilah teknikal berkaitan prestasi komputer.",
           c: "Ini adalah istilah berkaitan perniagaan dalam talian.",
@@ -767,7 +767,7 @@ export const pengaruhIct: Quiz = {
       correctOptionId: "c",
       explanation: {
         correct:
-          "Slaid kesimpulan menyatakan bahawa ICT sering 'disalah guna untuk kepentingan... politik', dan propaganda fitnah adalah contoh jelas.",
+          "slide kesimpulan menyatakan bahawa ICT sering 'disalah guna untuk kepentingan... politik', dan propaganda fitnah adalah contoh jelas.",
         incorrect: {
           a: "E-dagang yang sah adalah manfaat ICT.",
           b: "Pembelajaran dalam talian adalah penggunaan ICT yang positif.",
@@ -790,7 +790,7 @@ export const pengaruhIct: Quiz = {
       correctOptionId: "b",
       explanation: {
         correct:
-          "Slaid secara konsisten memberi amaran tentang bahaya berita palsu (fake news) dan ucapan kebencian (hate speech) sebagai akibat penggunaan ICT tanpa etika.",
+          "slide secara konsisten memberi amaran tentang bahaya berita palsu (fake news) dan ucapan kebencian (hate speech) sebagai akibat penggunaan ICT tanpa etika.",
         incorrect: {
           a: "Tanpa kawalan, ICT lebih cenderung memecahbelahkan masyarakat.",
           c: "Tanpa etika, bahasa yang digunakan lebih cenderung menjadi kasar.",
@@ -836,7 +836,7 @@ export const pengaruhIct: Quiz = {
       correctOptionId: "b",
       explanation: {
         correct:
-          "Slaid menerangkan bahawa ICT sebagai 'alat' boleh mempercepatkan urusan dan menjadikan komunikasi lebih efisien, menjadikannya 'kawan' kepada manusia.",
+          "slide menerangkan bahawa ICT sebagai 'alat' boleh mempercepatkan urusan dan menjadikan komunikasi lebih efisien, menjadikannya 'kawan' kepada manusia.",
         incorrect: {
           a: "Ini adalah kesan negatif atau sisi 'lawan' ICT.",
           c: "Ini adalah contoh ICT sebagai 'lawan'.",
@@ -846,7 +846,7 @@ export const pengaruhIct: Quiz = {
     },
     {
       id: "ict-q33",
-      text: "Antara berikut, yang manakah contoh aplikasi ICT moden yang disebut dalam slaid?",
+      text: "Antara berikut, yang manakah contoh aplikasi ICT moden yang disebut dalam slide?",
       options: [
         { id: "a", text: "Kecerdasan Buatan (AI) & Internet Benda (IoT)." },
         { id: "b", text: "Mesin taip manual dan telegraf." },
@@ -856,7 +856,7 @@ export const pengaruhIct: Quiz = {
       correctOptionId: "a",
       explanation: {
         correct:
-          "Slaid secara khusus memaparkan imej dengan tajuk 'AI & IoT' sebagai contoh evolusi teknologi terkini.",
+          "slide secara khusus memaparkan imej dengan tajuk 'AI & IoT' sebagai contoh evolusi teknologi terkini.",
         incorrect: {
           b: "Ini adalah teknologi komunikasi lama.",
           c: "Ini adalah kaedah komunikasi tradisional.",
@@ -886,7 +886,7 @@ export const pengaruhIct: Quiz = {
     },
     {
       id: "ict-q35",
-      text: "Apakah persoalan utama yang ditimbulkan berkaitan dengan Kecerdasan Buatan (AI) dalam slaid terakhir?",
+      text: "Apakah persoalan utama yang ditimbulkan berkaitan dengan Kecerdasan Buatan (AI) dalam slide terakhir?",
       options: [
         {
           id: "a",
@@ -908,7 +908,7 @@ export const pengaruhIct: Quiz = {
       correctOptionId: "c",
       explanation: {
         correct:
-          "Imej dalam slaid terakhir secara jelas bertanya 'WHAT WILL OUR SOCIETY LOOK LIKE WHEN ARTIFICIAL INTELLIGENCE IS EVERYWHERE?' dan diikuti dengan soalan-soalan seperti 'Will robots become self-aware? Will they have rights?'.",
+          "Imej dalam slide terakhir secara jelas bertanya 'WHAT WILL OUR SOCIETY LOOK LIKE WHEN ARTIFICIAL INTELLIGENCE IS EVERYWHERE?' dan diikuti dengan soalan-soalan seperti 'Will robots become self-aware? Will they have rights?'.",
         incorrect: {
           a: "Ini adalah soalan teknikal, bukan soalan falsafah dan sosial yang ditimbulkan.",
           b: "Ini adalah soalan komersial, bukan perbincangan mendalam tentang impak sosial AI.",
@@ -928,7 +928,7 @@ export const pengaruhIct: Quiz = {
       correctOptionId: "a",
       explanation: {
         correct:
-          "Ketiga-tiga isu iaitu Fake News, Deep Fake, dan Social Listening Tools dibincangkan secara khusus dalam slaid sebagai isu semasa ICT.",
+          "Ketiga-tiga isu iaitu Fake News, Deep Fake, dan Social Listening Tools dibincangkan secara khusus dalam slide sebagai isu semasa ICT.",
         incorrect: {
           b: "Kekurangan talian telefon awam (IV) bukan lagi isu ICT semasa yang relevan.",
           c: "Pilihan ini tidak lengkap dan memasukkan isu yang tidak relevan (IV).",
@@ -983,7 +983,7 @@ export const pengaruhIct: Quiz = {
       correctOptionId: "c",
       explanation: {
         correct:
-          "Slaid menyatakan dengan jelas bahawa RangKoM ditubuhkan pada tahun 1989.",
+          "slide menyatakan dengan jelas bahawa RangKoM ditubuhkan pada tahun 1989.",
         incorrect: {
           a: "1970 adalah tahun Rukun Negara; JARING dilancarkan pada 1991.",
           b: "1983 adalah tahun idea awal internet; RangKoM ditubuhkan pada 1989.",
@@ -1003,7 +1003,7 @@ export const pengaruhIct: Quiz = {
       correctOptionId: "d",
       explanation: {
         correct:
-          "Semua perkara (I, II, III, dan IV) disenaraikan dalam slaid 'Keibubapaan Siber' sebagai adab yang perlu dipupuk dalam penggunaan ICT untuk kesepaduan sosial.",
+          "Semua perkara (I, II, III, dan IV) disenaraikan dalam slide 'Keibubapaan Siber' sebagai adab yang perlu dipupuk dalam penggunaan ICT untuk kesepaduan sosial.",
         incorrect: {
           a: "Pilihan ini tidak lengkap kerana III dan IV juga disenaraikan.",
           b: "Pilihan ini juga tidak lengkap.",
@@ -1013,7 +1013,7 @@ export const pengaruhIct: Quiz = {
     },
     {
       id: "ict-q40",
-      text: "Slaid pertama menunjukkan frasa 'Are you ready for DIGITAL COHESION?'. Apakah mesej yang ingin disampaikan?",
+      text: "slide pertama menunjukkan frasa 'Are you ready for DIGITAL COHESION?'. Apakah mesej yang ingin disampaikan?",
       options: [
         {
           id: "a",

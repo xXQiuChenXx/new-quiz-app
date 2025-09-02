@@ -358,7 +358,7 @@ export const kesepatuan: Quiz = {
       correctOptionId: "b",
       explanation: {
         correct:
-          "Slaid secara jelas menyatakan 'Malaya/Malaysia ibarat sebuah jigsaw puzzle' kerana negeri-negerinya 'asalnya terikat kepada pusat2 yang berbeza' sebelum disatukan oleh British menjadi satu gambaran besar.",
+          "slide secara jelas menyatakan 'Malaya/Malaysia ibarat sebuah jigsaw puzzle' kerana negeri-negerinya 'asalnya terikat kepada pusat2 yang berbeza' sebelum disatukan oleh British menjadi satu gambaran besar.",
         incorrect: {
           a: "Walaupun prosesnya rumit, analogi ini lebih merujuk kepada penyatuan entiti yang terpisah.",
           c: "Ini adalah tafsiran literal geografi, bukan maksud sebenar analogi tersebut.",
