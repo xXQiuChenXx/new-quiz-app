@@ -73,7 +73,7 @@ export default function Home() {
           <p className="text-lg text-slate-600">
             Pilih kategori dan topik untuk mula menjawab soalan
           </p>
-          <p className="text-lg text-red-600 mt-2">
+          <p className="text-lg text-red-600">
             注意：AI 生成的題目答案可能有誤，請以原課文爲準
           </p>
         </header>
