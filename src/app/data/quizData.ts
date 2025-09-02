@@ -10,6 +10,7 @@ import { pengaruhIct } from "./ict";
 import { ideologi } from "./ideologi";
 import { kepelbagaian } from "./kepelbagaian";
 import { kesepatuan } from "./kesepatuan";
+import { konsepEtika } from "./konsep-etika";
 import { metafizik } from "./metafizik";
 import { pembinaanPeradaban } from "./pembinaan-peradaban";
 import { persekutuan } from "./persekutuan";
@@ -142,6 +143,7 @@ export const quizzes: Quiz[] = [
   DSTopik5,
   QWTopik3,
   etikaCombine,
+  konsepEtika
 ];
 
 /**
