@@ -129,7 +129,7 @@ export const quizCategories: QuizCategory[] = [
   {
     id: "wireless",
     name: "Wireless Mobile Networking",
-    lecturer: "TBD",
+    lecturer: "Dennis Cheng",
     subcategories: [
       {
         id: "wireless-topic-1",
