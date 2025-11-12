@@ -17,6 +17,11 @@ import { persekutuan } from "./persekutuan";
 import { QWTopik3 } from "./qwen-3";
 import { tanggungjawabSosial } from "./tanggungjawab";
 import { tokohFalsafah } from "./tokoh-falsafah";
+import { wirelessTopic1 } from "./wireless/topic-1";
+import { wirelessTopic2 } from "./wireless/topic-2";
+import { wirelessTopic3 } from "./wireless/topic-3";
+import { wirelessTopic3GPT } from "./wireless/topic-3-gpt";
+import { wirelessTopic4 } from "./wireless/topic-4";
 
 /**
  * Quiz categories
@@ -121,6 +126,38 @@ export const quizCategories: QuizCategory[] = [
       },
     ],
   },
+  {
+    id: "wireless",
+    name: "Wireless Mobile Networking",
+    lecturer: "TBD",
+    subcategories: [
+      {
+        id: "wireless-topic-1",
+        name: "Topic 1 - Introduction to Wireless Communications",
+        quizId: "wireless-topic-1",
+      },
+      {
+        id: "wireless-topic-2",
+        name: "Topic 2 - Communication Systems & Signal Processing",
+        quizId: "wireless-topic-2",
+      },
+      {
+        id: "wireless-topic-3",
+        name: "Topic 3 - Cellular Networks",
+        quizId: "wireless-topic-3",
+      },
+      {
+        id: "wireless-topic-3-gpt",
+        name: "Topic 3 - Cellular Networks (GPT Version)",
+        quizId: "wireless-topic-3-gpt",
+      },
+      {
+        id: "wireless-topic-4",
+        name: "Topic 4 - Network Types & Architectures",
+        quizId: "wireless-topic-4",
+      },
+    ],
+  },
 ];
 
 /**
@@ -143,7 +180,12 @@ export const quizzes: Quiz[] = [
   DSTopik5,
   QWTopik3,
   etikaCombine,
-  konsepEtika
+  konsepEtika,
+  wirelessTopic1,
+  wirelessTopic2,
+  wirelessTopic3,
+  wirelessTopic3GPT,
+  wirelessTopic4
 ];
 
 /**
